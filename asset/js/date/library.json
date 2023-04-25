@@ -1,0 +1,164 @@
+[
+    
+    {
+        "libraryCate" :"playlist",
+
+        "thumbLink" :null,
+        "thumbSrc" :"./asset/img/playlist/playlist_kpop_rising.jpg",
+        "title":"K-Pop Rising",
+        "info":"Future K-Pop hits! Cover: ASH ISLAND"
+    },
+    {
+        "libraryCate" :"playlist",
+
+        "thumbLink" :null,
+        "thumbSrc" :"./asset/img/playlist/playlist_christmas_hits.jpg",
+        "title":"Christmas Hits",
+        "info":"The biggest Christmas songs of all time."
+    },
+
+    {
+        "libraryCate" :"potcast",
+
+        "thumbLink" :null,
+        "thumbSrc" :"./asset/img/potcast/potcast_case63.jpg",
+        "title":"Case 63",
+        "info":"Gimlet"
+    },
+    {
+        "libraryCate" :"potcast",
+
+        "thumbLink" :null,
+        "thumbSrc" :"./asset/img/potcast/potcast_eco.jpg",
+        "title":"[마포FM]에코쌀롱",
+        "info":"[마포FM]에코쌀롱"
+    },
+    {
+        "libraryCate" :"potcast",
+
+        "thumbLink" :null,
+        "thumbSrc" :"./asset/img/potcast/potcast_soil.jpg",
+        "title":"소일(SOIL)",
+        "info":"SOIL"
+    },
+    {
+        "libraryCate" :"potcast",
+
+        "thumbLink" :null,
+        "thumbSrc" :"./asset/img/potcast/potcast_book.jpg",
+        "title":"책읽아웃",
+        "info":"예스24"
+    },
+
+
+
+
+
+
+    {
+        "libraryCate" :"artist",
+
+        "thumbLink" :null,
+        "thumbSrc" :"./asset/img/artist/artist_ariana_grande.jpg",
+        "title":"Ariana Grande",
+        "info":"아티스트"
+    },
+    {
+        "libraryCate" :"artist",
+
+        "thumbLink" :null,
+        "thumbSrc" :"./asset/img/artist/artist_jangkiha.jpg",
+        "title":"장기하와 얼굴들",
+        "info":"아티스트"
+    },
+    {
+        "libraryCate" :"artist",
+
+        "thumbLink" :null,
+        "thumbSrc" :"./asset/img/artist/artist_sekai_no_owari.jpg",
+        "title":"SEKAI NO OWARI",
+        "info":"아티스트"
+    },
+    {
+        "libraryCate" :"artist",
+
+        "thumbLink" :null,
+        "thumbSrc" :"./asset/img/artist/artist_taylor_swift.jpg",
+        "title":"Taylor Swift",
+        "info":"아티스트"
+    },
+    {
+        "libraryCate" :"artist",
+
+        "thumbLink" :null,
+        "thumbSrc" :"./asset/img/artist/artist_taylor_swift.jpg",
+        "title":"SZA",
+        "info":"아티스트"
+    },
+    {
+        "libraryCate" :"artist",
+
+        "thumbLink" :null,
+        "thumbSrc" :"./asset/img/artist/artist_balckskirt.jpg",
+        "title":"검정치마",
+        "info":"아티스트"
+    },
+
+
+
+
+
+
+
+    {
+        "libraryCate" :"album",
+
+        "thumbLink" :null,
+        "thumbSrc" :"./asset/img/album/album_love_is_love.jpg",
+        "title":"Love is Love",
+        "info":"jiae"
+    },
+    {
+        "libraryCate" :"album",
+
+        "thumbLink" :null,
+        "thumbSrc" :"./asset/img/album/album_swipe.jpg",
+        "title":"SWIPE",
+        "info":"ALYPH"
+    },
+    {
+        "libraryCate" :"album",
+
+        "thumbLink" :null,
+        "thumbSrc" :"./asset/img/album/album_midnights.jpg",
+        "title":"Midnights",
+        "info":"Taylor Swift"
+    },
+    {
+        "libraryCate" :"album",
+
+        "thumbLink" :null,
+        "thumbSrc" :"./asset/img/album/album_ctrl.jpg",
+        "title":"Ctrl",
+        "info":"SZA"
+    },
+    {
+        "libraryCate" :"album",
+
+        "thumbLink" :null,
+        "thumbSrc" :"./asset/img/album/album_new_jeans.jpg",
+        "title":"NewJeans 1st EP 'New Jeans'",
+        "info":"NewJeans"
+    },
+    {
+        "libraryCate" :"album",
+
+        "thumbLink" :null,
+        "thumbSrc" :"./asset/img/album/album_antifrgle.jpg",
+        "title":"ANTIFRAGILE",
+        "info":"LE SSERAFIM"
+    }
+
+
+
+]

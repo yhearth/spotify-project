@@ -1,0 +1,99 @@
+.search_area{
+    margin-top: 64px;
+    padding-top: 16px;
+
+    .sc_search{
+        margin-top: 32px;
+        .title{
+            font-size: 1.5rem;font-weight: 700;
+            margin-bottom: 16px;
+        }
+        .group_genre{
+            .genre_list{
+                overflow: hidden;
+                .genre_item{
+                    position: relative;
+                    float: left;
+                    width: calc(50% - 6px);height: 0;
+                    padding-bottom: 50%;
+                    //같은 비율로 너비 만들기 대신 공간은 없는 형태
+                    margin: 0 12px 12px 0;
+                    border-radius: 10px;
+                    overflow: hidden;
+                    a{
+                        display: block;
+                    }
+                    &:nth-child(2n){margin-right: 0;}
+                    @include mobile{
+                        width: calc((100%/3) - 12px);
+                        padding-bottom: calc(100%/3);
+                        margin-right: 18px;
+                        &:nth-child(2n){margin-right: 18px;}
+                        &:nth-child(3n){margin-right: 0px;}
+                        
+                    }
+                    @include mobilePro{
+                        width: calc((100%/4) - 12px);
+                        padding-bottom: calc(100%/4);
+                        margin-right: 16px;
+                        &:nth-child(2n){margin-right: 16px;}
+                        &:nth-child(3n){margin-right: 16px;}
+                        &:nth-child(4n){margin-right: 0px;}
+                    }
+                    @include tablet{
+                        width: calc((100%/5) - 12px);
+                        padding-bottom: calc(100%/5);
+                        margin-right: 15px;
+                        &:nth-child(2n){margin-right: 15px;}
+                        &:nth-child(3n){margin-right: 15px;}
+                        &:nth-child(4n){margin-right: 15px;}
+                        &:nth-child(5n){margin-right: 0px;}
+                    }
+                    @include tabletPro{
+                        width: calc((100%/6) - 12px);
+                        padding-bottom: calc(100%/6);
+                        margin-right: 14px;
+                        &:nth-child(2n){margin-right: 14px;}
+                        &:nth-child(3n){margin-right: 14px;}
+                        &:nth-child(4n){margin-right: 14px;}
+                        &:nth-child(5n){margin-right: 14px;}
+                        &:nth-child(6n){margin-right: 0px;}
+                    }
+                    @include desktop{
+                        width: calc((100%/7) - 12px);
+                        padding-bottom: calc(100%/7);
+                        margin-right: 13px;
+                        &:nth-child(2n){margin-right: 13px;}
+                        &:nth-child(3n){margin-right: 13px;}
+                        &:nth-child(4n){margin-right: 13px;}
+                        &:nth-child(5n){margin-right: 13px;}
+                        &:nth-child(6n){margin-right: 13px;}
+                        &:nth-child(7n){margin-right: 0px;}
+                    }
+                    .txt_wrap{
+                        position: absolute;
+                        padding: 16px;box-sizing: border-box;
+                        font-size: 1rem;font-weight: 700;
+
+                    }
+                    .img_wrap{
+                        position: absolute;
+                        bottom:0;right: -16px;transform: rotate(24deg);
+                        width: 45%;height: 45%;
+                        transition: all 0.2s ease-in-out;
+                        box-shadow: 5px 5px 15px rgba(20, 20, 20, 0.613);
+                        &.on{
+                            transform: rotate(10deg);    
+                            width: 60%;height: 60%;   
+                        }
+                        img{width: 100%;}
+
+                    }
+                }
+
+            }
+        }
+    }
+
+}
+

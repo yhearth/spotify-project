@@ -1,0 +1,25 @@
+
+body{
+    color: #222; 
+    position: relative;
+    line-height: 1;
+}
+
+.blind{
+    position: absolute;   
+    width: 1px;height: 1px;
+    overflow: hidden;
+    // clip: rect(0 0 0 0);
+    margin: -1px;
+}
+
+.inner{
+    width: 100%;margin: 0 auto;
+    padding: 0 16px;box-sizing: border-box;
+    // @include desktop{max-width: 80%;}
+    // @include tablet{max-width: 720px;}
+    // @include mobile{max-width: 540px;}
+}
+
+
+

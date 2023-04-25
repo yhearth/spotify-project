@@ -1,0 +1,62 @@
+@mixin title{
+    font-size: 1.9rem;font-weight:700;
+    line-height: 1.7;
+}
+
+@mixin playBtn{
+    width: 48px;height: 48px;
+    border-radius: 50%;
+    background-color: #1ed760;
+    box-shadow: 0px 5px 15px #111111e3;
+    opacity: 0;
+    transition: all 0.3s 0.1s ease;
+    .play_btn{
+        position: absolute;
+        width: 24px;height: 24px;
+        top: 50%;left: 50%;transform: translate(-50%, -50%);                                    
+    }
+    &.on{ bottom:5%;opacity: 1;}
+}
+
+
+/*반응형 화면 크기*/ 
+//320 젤 작은거
+$mobile: 767px;
+$mobilePro: 1024px;
+$tablet: 1200px;
+$tabletPro: 1400px;
+$desktop: 1600px; 
+$desktopPro: 1800px; 
+
+
+
+@mixin mobile{ 
+    @media (min-width: $mobile){
+         @content;    
+    } 
+}
+@mixin mobilePro{ 
+    @media (min-width: $mobilePro){
+         @content;    
+    } 
+}
+@mixin tablet{ 
+    @media (min-width: $tablet){ 
+        @content; 
+    } 
+}
+@mixin tabletPro{ 
+    @media (min-width: $tabletPro){ 
+        @content; 
+    } 
+}
+@mixin desktop{ 
+    @media (min-width: $desktop){ 
+        @content; 
+    } 
+}
+@mixin desktopPro{ 
+    @media (min-width: $desktopPro){ 
+        @content; 
+    } 
+}

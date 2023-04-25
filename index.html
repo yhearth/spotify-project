@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sopotify</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"> 
+    <link rel="stylesheet" href="./asset/css/style.css">
+   
+</head>
+<body>
+    <header>
+        <div class="inner">
+            <div class="header_area">
+                <div class="meun">
+                    <a href="" class="link_meun" id="btnMeun">
+                        <svg> <path d="M21 6H3V4h18v2zm0 14H3v-2h18v2zm0-7H3v-2h18v2z"></path></svg> 
+                        <span class="blind">메뉴 바로가기</span>
+                    </a>
+                </div>
+                <h1 class="logo">
+                    <a href="" class="link_logo" onclick = "location.href ='index.html'">
+                        <img src="./asset/img/icon/Spotify_Logo_RGB_White.png" alt="">
+                        <span class="blind">스포티파이</span>
+                    </a>
+                </h1>
+                <button class="btn_srh">
+                    <svg role="img"><path d="M10.533 1.279c-5.18 0-9.407 4.14-9.407 9.279s4.226 9.279 9.407 9.279c2.234 0 4.29-.77 5.907-2.058l4.353 4.353a1 1 0 101.414-1.414l-4.344-4.344a9.157 9.157 0 002.077-5.816c0-5.14-4.226-9.28-9.407-9.28zm-7.407 9.279c0-4.006 3.302-7.28 7.407-7.28s7.407 3.274 7.407 7.28-3.302 7.279-7.407 7.279-7.407-3.273-7.407-7.28z"></path></svg>
+                    <span class="blind">검색하기</span>
+                </button>
+                <div class="info">
+                    <a href="" class="link_info">
+                        <svg role="img"><path d="M6.233.371a4.388 4.388 0 015.002 1.052c.421.459.713.992.904 1.554.143.421.263 1.173.22 1.894-.078 1.322-.638 2.408-1.399 3.316l-.127.152a.75.75 0 00.201 1.13l2.209 1.275a4.75 4.75 0 012.375 4.114V16H.382v-1.143a4.75 4.75 0 012.375-4.113l2.209-1.275a.75.75 0 00.201-1.13l-.126-.152c-.761-.908-1.322-1.994-1.4-3.316-.043-.721.077-1.473.22-1.894a4.346 4.346 0 01.904-1.554c.411-.448.91-.807 1.468-1.052zM8 1.5a2.888 2.888 0 00-2.13.937 2.85 2.85 0 00-.588 1.022c-.077.226-.175.783-.143 1.323.054.921.44 1.712 1.051 2.442l.002.001.127.153a2.25 2.25 0 01-.603 3.39l-2.209 1.275A3.25 3.25 0 001.902 14.5h12.196a3.25 3.25 0 00-1.605-2.457l-2.209-1.275a2.25 2.25 0 01-.603-3.39l.127-.153.002-.001c.612-.73.997-1.52 1.052-2.442.032-.54-.067-1.097-.144-1.323a2.85 2.85 0 00-.588-1.022A2.888 2.888 0 008 1.5z"></path></svg>
+                        <span class="blind">내 계정 바로가기</span>
+                    </a>
+                </div>
+            </div>
+        </div><!-- 상단헤더 -->
+        <div class="meun_page">
+            <div class="meun_area">
+                <div class="meun_head">
+                    <h2 class="meun_logo">
+                        <a href="" class="link_meun" onclick = "location.href ='index.html'">
+                            <img src="./asset/img/icon/Spotify_Logo_RGB_Green.png" alt="">
+                            <span class="blind">스포티파이</span>
+                        </a>
+                    </h2>
+                    <a href="" class="btn_close">
+                        <svg><path d="M3.293 3.293a1 1 0 011.414 0L12 10.586l7.293-7.293a1 1 0 111.414 1.414L13.414 12l7.293 7.293a1 1 0 01-1.414 1.414L12 13.414l-7.293 7.293a1 1 0 01-1.414-1.414L10.586 12 3.293 4.707a1 1 0 010-1.414z"></path></svg>
+                        <span class="blind">닫기</span>
+                    </a>
+                </div>
+                <div class="meun_cont">
+                       <ul class="gnb_list">
+                        <li class="gnb_item">
+                            <a href="#home" class="home" onclick = "location.href='index.html'">
+                                <div class="icon">
+                                    <svg><path d="M13.5 1.515a3 3 0 00-3 0L3 5.845a2 2 0 00-1 1.732V21a1 1 0 001 1h6a1 1 0 001-1v-6h4v6a1 1 0 001 1h6a1 1 0 001-1V7.577a2 2 0 00-1-1.732l-7.5-4.33z"></path></svg>
+                                </div>
+                                <span class="gnb">홈</span>
+                            </a>
+                        </li>
+                        <li class="gnb_item">
+                            <a href="#search" class="search" onclick = "location.href='search.html'">
+                                <div class="icon">
+                                    <svg><path d="M10.533 1.279c-5.18 0-9.407 4.14-9.407 9.279s4.226 9.279 9.407 9.279c2.234 0 4.29-.77 5.907-2.058l4.353 4.353a1 1 0 101.414-1.414l-4.344-4.344a9.157 9.157 0 002.077-5.816c0-5.14-4.226-9.28-9.407-9.28zm-7.407 9.279c0-4.006 3.302-7.28 7.407-7.28s7.407 3.274 7.407 7.28-3.302 7.279-7.407 7.279-7.407-3.273-7.407-7.28z"></path></svg>
+                                </div>
+                                <span class="gnb">검색하기</span>
+                            </a>
+                        </li>
+                        <li class="gnb_item">
+                            <a href="#library" class="library" onclick = "location.href='library.html'">
+                                <div class="icon">
+                                    <svg><path d="M14.5 2.134a1 1 0 011 0l6 3.464a1 1 0 01.5.866V21a1 1 0 01-1 1h-6a1 1 0 01-1-1V3a1 1 0 01.5-.866zM16 4.732V20h4V7.041l-4-2.309zM3 22a1 1 0 01-1-1V3a1 1 0 012 0v18a1 1 0 01-1 1zm6 0a1 1 0 01-1-1V3a1 1 0 012 0v18a1 1 0 01-1 1z"></path></svg>
+                                </div>
+                                <span class="gnb">내 라이브러리</span>
+                            </a>
+                        </li>
+                        <li class="gnb_item">
+                            <a href="#mix_list" class="mix_list">
+                                <div class="icon">
+                                    <svg><path d="M15.25 8a.75.75 0 01-.75.75H8.75v5.75a.75.75 0 01-1.5 0V8.75H1.5a.75.75 0 010-1.5h5.75V1.5a.75.75 0 011.5 0v5.75h5.75a.75.75 0 01.75.75z"></path></svg>
+                                </div>
+                                <span class="gnb">플레이 리스트 만들기</span>
+                            </a>
+                        </li>
+                        <li class="gnb_item">
+                            <a href="#like" class="like">
+                                <div class="icon">
+                                    <svg><path d="M15.724 4.22A4.313 4.313 0 0012.192.814a4.269 4.269 0 00-3.622 1.13.837.837 0 01-1.14 0 4.272 4.272 0 00-6.21 5.855l5.916 7.05a1.128 1.128 0 001.727 0l5.916-7.05a4.228 4.228 0 00.945-3.577z"></path></svg>
+                                </div>
+                                <span class="gnb">좋아요 표시한 곡</span>
+                            </a>
+                        </li>
+                       </ul>
+                    <div class="playlist_group">
+                        <ul class="playlist_wrap">
+                            <li class="playlist_item">
+                                <a href=""> 
+                                    <div>내 플레이 리스트</div>
+                                </a>
+                            </li>
+                            <li class="playlist_item"></li>
+                            <li class="playlist_item"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div><!--메뉴 페이지-->
+
+        <div class="info_page">
+            <a href="" class="btn_close">
+                <svg><path d="M3.293 3.293a1 1 0 011.414 0L12 10.586l7.293-7.293a1 1 0 111.414 1.414L13.414 12l7.293 7.293a1 1 0 01-1.414 1.414L12 13.414l-7.293 7.293a1 1 0 01-1.414-1.414L10.586 12 3.293 4.707a1 1 0 010-1.414z"></path></svg>
+                <span class="blind">닫기</span>
+            </a>
+            <div class="group_user">
+                <a href="" class="link_account">
+                    <span>계정보기</span>
+                    <svg>
+                        <path d="M19 5v10.193a1 1 0 1 1-2 0V8.414L5.707 19.707a1 1 0 0 1-1.414-1.414L15.586 7H8.808a1 1 0 0 1 0-2H19z"></path>
+                    </svg>
+                </a>
+                <a href="" class="link_profile">
+                    <span>프로필</span>
+                </a>
+                <a href="" class="btn_logout">
+                    <span>로그아웃 하기</span>
+                </a>
+            </div>
+            <div class="group_corp">
+                <ul class="corp_list">
+                    <li class="corp_item">
+                       <a href=""><strong>프리미엄</strong></a>
+                    </li>
+                    <li class="corp_item">
+                        <a href=""><strong>도움말</strong></a>
+                     </li>
+                     <li class="corp_item">
+                        <a href=""><strong>다운로드하기</strong></a>
+                     </li>
+                     <li class="corp_item">
+                        <a href=""><strong>개인정보취급방침</strong></a>
+                     </li>
+                     <li class="corp_item">
+                        <a href=""><strong>약관</strong></a>
+                     </li>
+                </ul>
+            </div>
+        </div
+        >
+        <!--계정 페이지-->
+    </header>
+    <main>
+        <div class="inner">
+            <div class="main_area">
+                <section class="sc_intro">
+                    <div class="tit_box">
+                        <h2 class="title">즐거운 오후입니다</h2>
+                    </div>
+                    <div class="music_box">
+                        <ul class="music_list">
+                            <li class="list_item">
+                                <a href="" class="img_wrap">
+                                    <img src="asset/img/intro_running_kpop.jpg" alt="">
+                                </a>
+                                <a href="" class="txt_wrap">
+                                    <strong class="tit">러닝 케이팝</strong>    
+                                </a>
+                                <a  href="" class="ic_play">
+                                    <div class="play_btn">
+                                        <span><svg><path d="M7.05 3.606l13.49 7.788a.7.7 0 010 1.212L7.05 20.394A.7.7 0 016 19.788V4.212a.7.7 0 011.05-.606z"></path></svg></span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="list_item">
+                                <a href="" class="img_wrap">
+                                    <img src="asset/img/intro_nolja.jpg" alt="">
+                                </a>
+                                <a href="" class="txt_wrap">
+                                    <strong class="tit">Nolja!</strong>    
+                                </a>
+                                <a  href="" class="ic_play">
+                                    <div class="play_btn">
+                                        <span><svg><path d="M7.05 3.606l13.49 7.788a.7.7 0 010 1.212L7.05 20.394A.7.7 0 016 19.788V4.212a.7.7 0 011.05-.606z"></path></svg></span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="list_item">
+                                <a href="" class="img_wrap">
+                                    <img src="asset/img/intro_kpop_on.jpg" alt="">
+                                </a>
+                                <a href="" class="txt_wrap">
+                                    <strong class="tit">K-Pop ON!(온</strong>
+                                </a>
+                                <a  href="" class="ic_play">
+                                    <div class="play_btn">
+                                        <span><svg><path d="M7.05 3.606l13.49 7.788a.7.7 0 010 1.212L7.05 20.394A.7.7 0 016 19.788V4.212a.7.7 0 011.05-.606z"></path></svg></span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="list_item">
+                                <a href="" class="img_wrap">
+                                    <img src="./asset/img/intro_fearless.jpg" alt="">
+                                </a>
+                                <a href="" class="txt_wrap">
+                                    <strong class="tit">FEARLESS</strong>
+                                </a>
+                                <a  href="" class="ic_play">
+                                    <div class="play_btn">
+                                        <span><svg><path d="M7.05 3.606l13.49 7.788a.7.7 0 010 1.212L7.05 20.394A.7.7 0 016 19.788V4.212a.7.7 0 011.05-.606z"></path></svg></span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="list_item">
+                                <a href="" class="img_wrap">
+                                    <img src="./asset/img/intro_girls_night.jpg" alt="">
+                                </a>
+                                <a href="" class="txt_wrap">
+                                    <strong class="tit">Girl's Night</strong>
+                                </a>
+                                <a  href="" class="ic_play">
+                                    <div class="play_btn">
+                                        <span><svg><path d="M7.05 3.606l13.49 7.788a.7.7 0 010 1.212L7.05 20.394A.7.7 0 016 19.788V4.212a.7.7 0 011.05-.606z"></path></svg></span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="list_item">
+                                <a href="" class="img_wrap">
+                                    <img src="./asset/img/intro_blackpink_radio.jpg" alt="">
+                                </a>
+                                <a href="" class="txt_wrap">
+                                    <strong class="tit">BLACKPINK 라디오</strong>
+                                </a>
+                                <a  href="" class="ic_play">
+                                    <div class="play_btn">
+                                        <span><svg><path d="M7.05 3.606l13.49 7.788a.7.7 0 010 1.212L7.05 20.394A.7.7 0 016 19.788V4.212a.7.7 0 011.05-.606z"></path></svg></span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </section>
+                <section class="sc_recommend">
+                  <div class="group_replay recomCate" >
+                        <div class="tit_box">
+                            <h2 class="title">다시 들어보세요</h2>
+                            <a href="" class="link_more">모두 보기</a>
+                        </div>
+                        <div class="music_box">
+                            <ul class="music_list">
+                                <!-- <li class="list_item">
+                                    <a href="" class="img_wrap">
+                                        <img src="./asset/img/replay_cardi_b_mix.jpg" alt="">
+                                         <div class="ic_play">
+                                            <buttom class="play_btn">
+                                                <span><svg><path d="M7.05 3.606l13.49 7.788a.7.7 0 010 1.212L7.05 20.394A.7.7 0 016 19.788V4.212a.7.7 0 011.05-.606z"></path></svg></span>
+                                            </buttom>
+                                        </div>
+                                    </a>
+                                    <a href="" class="txt_wrap">
+                                        <strong class="tit">Cardi B 믹스</strong>
+                                        <span class="info">Megan Thee Stallion,cupcake,Chloe 등</span>
+                                    </a>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div> 
+                 <div class="group_mixed recomCate">
+                        <div class="tit_box">
+                            <h2 class="title">내가 즐겨 듣는 믹스</h2>
+                            <a href="" class="link_more">모두 보기</a>
+                        </div>
+                        <div class="music_box">
+                            <ul class="music_list">
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="group_played recomCate">
+                        <div class="tit_box">
+                            <h2 class="title">최근 재생한 항목</h2>
+                            <a href="" class="link_more">모두 보기</a>
+                        </div>
+                        <div class="music_box">
+                            <ul class="music_list">
+                                <!-- <li class="list_item">
+                                    <a href="" class="img_wrap">
+                                        <img src="./asset/img/played_nolja.jpg" alt="">
+                                    </a>
+                                    <div href="" class="txt_wrap">
+                                        <a href="" class="tit">Nolja!</a>
+                                        <span class="info">Time to press play on these jaem jams from 2010 onwards! Cover: TWICE</span>
+                                    </div>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div> 
+                    <div class="group_recomMix recomCate">
+                        <div class="tit_box">
+                            <h2 class="title">연화 님을 위한 믹스 & 추천</h2>
+                        </div>
+                        <div class="music_box">
+                            <ul class="music_list">
+                                <!-- <li class="list_item">
+                                    <a href="" class="img_wrap">
+                                        <img src="./asset/img/recomMix_daily_mix_1.jpg" alt="">
+                                    </a>
+                                    <div class="txt_wrap">
+                                        <a href="" class="tit">데일리 믹스 1</a>
+                                        <div class="info">
+                                            <a href="" class="exo">EXO</a>,
+                                            <a href="" class="gavinhaley">Gavin Haley</a>,
+                                            <a href="" class="ikon">iKON</a> 등
+                                        </div>
+                                    </div>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div> 
+                    <div class="group_recomRadio recomCate">
+                        <div class="tit_box">
+                            <h2 class="title">추천 스테이션</h2>
+                            <a href="" class="link_more">모두 보기</a>
+                        </div>
+                        <div class="music_box">
+                            <ul class="music_list">
+                                <!-- <li class="list_item">
+                                    <a href="" class="img_wrap">
+                                        <img src="./asset/img/recomRdio_ariana_grande.jpg" alt="">
+                                    </a>
+                                    <div class="txt_wrap">
+                                        <a href="" class="tit">Ariana_grande 라디오</a>
+                                        <span class="info">만든 사람 : Spotify</span>
+                                    </div>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div> 
+                    <div class="group_recomArtist recomCate" >
+                        <div class="tit_box">
+                            <h2 class="title">BLACKPINK과(와) 비슷한 아티스트 더 찾기</h2>
+                        </div>
+                        <div class="music_box">
+                            <ul class="music_list">
+                                <!-- <li class="list_item">
+                                    <a href="" class="img_wrap">
+                                        <img src="./asset/img/recomArtist_jennie.jpg" alt="">
+                                    </a>
+                                    <div class="txt_wrap">
+                                        <a href="" class="tit">I'M FINE, SOLO. AND U?</a>
+                                        <span class="info">솔로여도 괜찮은 나를 위한 노래들</span>
+                                    </div>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="group_kpopRadio recomCate" >
+                        <div class="tit_box">
+                            <h2 class="title">아이돌 음악 에센셜</h2>
+                            <a href="" class="link_more">모두 보기</a>
+                        </div>
+                        <div class="music_box">
+                            <ul class="music_list">
+                                <!-- <li class="list_item">
+                                    <a href="" class="img_wrap">
+                                        <img src="./asset/img/kpopMix_k_club_party.jpg" alt="">
+                                    </a>
+                                    <div class="txt_wrap">
+                                        <a href="" class="tit">K-Club Party</a>
+                                        <span class="info">Let's party & clubbing with your favorite K-pop dance hits!! (Cover: KWON EUN BI(권은비)) [지금 가장 핫한 댄스곡들을 만나보세요.]</span>
+                                    </div>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="group_popRadio recomCate" >
+                        <div class="tit_box">
+                            <h2 class="title">팝 에센셜</h2>
+                            <a href="" class="link_more">모두 보기</a>
+                        </div>
+                        <div class="music_box">
+                            <ul class="music_list">
+                                <!-- <li class="list_item">
+                                    <a href="" class="img_wrap">
+                                        <img src="./asset/img/popRadio_today_hothit.jpg" alt="">
+                                    </a>
+                                    <div class="txt_wrap">
+                                        <a href="" class="tit">Today's Top Hits</a>
+                                        <span class="info">Rema & Selena Gomez are on top of the Hottest 50!</span>
+                                    </div>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div> 
+                    <div class="group_danceMix recomCate">
+                        <div class="tit_box">
+                            <h2 class="title">댄스 타임</h2>
+                            <a href="" class="link_more">모두 보기</a>
+
+                        </div>
+                        <div class="music_box">
+                            <ul class="music_list">
+                                <!-- <li class="list_item">
+                                    <a href="" class="img_wrap">
+                                        <img src="./asset/img/danceMix_pop_party.jpg" alt="">
+                                    </a>
+                                    <div class="txt_wrap">
+                                        <a href="" class="tit">Pop Party</a>
+                                        <span class="info">A perfect little pop party. </span>
+                                    </div>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="group_moodMix recomCate">
+                        <div class="tit_box">
+                            <h2 class="title">무드</h2>
+                            <a href="" class="link_more">모두 보기</a>
+                        </div>
+                        <div class="music_box">
+                            <ul class="music_list">
+                                <!-- <li class="list_item">
+                                    <a href="" class="img_wrap">
+                                        <img src="./asset/img/moodMix_sad_hour.jpg" alt="">
+                                    </a>
+                                    <div class="txt_wrap">
+                                        <a href="" class="tit">sad hour</a>
+                                        <span class="info">Nights on your own? I bet you think about me. Cover: Jessie Murph</span>
+                                    </div>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div> 
+                   <div class="group_workMix recomCate">
+                        <div class="tit_box">
+                            <h2 class="title">남들 시선은 신경 쓰지 않아요. 나에겐 최고의 음악이니까.</h2>
+                            <a href="" class="link_more">모두 보기</a>
+                        </div>
+                        <div class="music_box">
+                            <ul class="music_list">
+                                <!-- <li class="list_item">
+                                    <a href="" class="img_wrap">
+                                        <img src="./asset/img/workMix_workspace.jpg" alt="">
+                                    </a>
+                                    <div class="txt_wrap">
+                                        <a href="" class="tit">Workspace</a>
+                                        <span class="info">Soundtrack your workspace with this workday mixtape. i'm tired.</span>
+                                    </div>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div> 
+                    <div class="group_stateMix recomCate">
+                        <div class="tit_box">
+                            <h2 class="title">국내 분위기 & 상황별</h2>
+                            <a href="" class="link_more">모두 보기</a>
+                        </div>
+                        <div class="music_box">
+                            <ul class="music_list">
+                                <!-- <li class="list_item">
+                                    <a href="" class="img_wrap">
+                                        <img src="./asset/img/popMix_pop_sauce.jpg" alt="">
+                                    </a>
+                                    <div class="txt_wrap">
+                                        <a href="" class="tit">Workspace</a>
+                                        <span class="info">next gen pop cover: Nessa Barrett</span>
+                                    </div>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div> 
+                </section>
+            </div>
+
+        </div>
+        
+    </main>
+    <footer>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/ScrollTrigger.min.js"></script>  
+
+    <script src="asset/js/index.js">
+    </script>
+</body>
+</html>

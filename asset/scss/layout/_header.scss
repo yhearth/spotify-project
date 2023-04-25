@@ -1,0 +1,135 @@
+header{
+    position: relative;
+    color:white;
+    //헤더 속 상단영역/메뉴영역/계정영역 이 있으므로 고정 x
+    .inner{
+        width: 100%;
+        padding: 0 15px;
+    }
+    .header_area{
+        position: fixed;top: 0;left: 0;//위치
+        width: 100%;height: 64px;//모양
+        padding: 16px;box-sizing: border-box;
+
+       overflow: hidden;//메뉴와 회원정보 flaot 고정
+        background-color:transparent;
+        min-width: 375px;
+        z-index: 10;
+        .meun{
+            position: relative;
+            float: left;
+            width: 32px;height: 32px;
+            border-radius: 50%;
+            background-color: rgba(0,0,0,.4);
+            .link_meun{
+                display: block;
+                svg{
+                    position: absolute;
+                    top: 4px;left: 4px;
+                    width: 22px;height: 22px;
+                    fill:rgb(234, 234, 234);
+                }
+            }
+        }
+        .logo{
+            position: absolute;
+            top: 50%;left:48px;transform: translateY(-50%);
+            width: 68px;height: 32px;
+            margin-left: 16px;
+            
+            overflow: hidden;//로고 제거용
+            a{
+               position: absolute;top: 0;right: 0;
+               width: 100px;height: 100%;
+               //이미지 크롭용
+              img{ width: 100%;}
+            }
+        }
+        .btn_srh{
+            position: absolute;
+            top: 50%;right:48px;transform: translateY(-50%);
+            width: 36px;height: 32px;
+            vertical-align: bottom;
+            padding-top: 5px;box-sizing: border-box;
+            margin-right: 16px;
+            svg{
+                width: 100%;height: 100%;
+                fill:white;
+            }
+        }
+        .info{
+            position: relative;
+            float: right;
+            width: 32px;height: 32px;
+
+            border-radius: 50%;
+            border:2px solid #222;
+            background-color: rgba(0,0,0,.4);
+            a{
+              position: absolute;
+              top: 50%;left: 50%;transform: translate(-50%, -50%);
+              width: 16px;height: 16px;
+              padding-bottom: 2px;
+              svg{width: 100%;fill:white;}
+            }
+
+        }
+        .group_srh{//검색 페이지
+            position: absolute;
+            top: 50%;left:48px;transform: translateY(-50%);
+            width: 350px;height: 40px;
+            margin-left: 16px;
+
+            overflow: hidden;
+            .input_text {
+                position: relative;
+                width: 100%;height: 40px;
+                border-radius:20px;
+                border: 0;
+                outline: 0;
+                padding: 6px 48px;box-sizing: border-box;
+                @media(max-width:470px){
+                    width: 70%;
+                }
+            }
+            .btn_srh{
+                position: absolute;
+                top: 50%;left: 0;transform: translateY(-50%);
+                width: 36px;height: 36px;
+                margin-left: 8px;
+                svg{
+                    width: 100%;height: 100%;
+                    fill:#000;
+                }
+
+            }
+
+        }
+        .group_nav{//라이브러리
+            position: absolute;
+            top: 50%;left:32px;transform: translateY(-50%);
+            margin-left: 16px;
+            padding-left: 12px;
+            // background-color: #f00;
+            .nav_wrap{
+                overflow: hidden;
+                .nav_item{
+                    float: left;
+                    padding: 7px 14px;box-sizing: border-box;
+                    margin: 0 3px;
+
+                    border-radius: 5px;
+                    font-size: 0.7rem;font-weight:400;
+                    line-height: 1.7;
+                    &.active{background-color: #333;}
+                    a{display: block;}
+
+                }
+
+            }
+
+        }
+    }
+}
+
+
