@@ -4,7 +4,7 @@
         "libraryCate" :"playlist",
 
         "thumbLink" :"https://www.spotify.com/kr-ko/",
-        "thumbSrc" :"./asset/img/playlist/playlist_kpop_rising.jpg",
+        "thumbSrc" :"./asset/img/playlist/playlist_kpop_rising.webp",
         "title":"K-Pop Rising",
         "info":"Future K-Pop hits! Cover: ASH ISLAND"
     },
@@ -12,7 +12,7 @@
         "libraryCate" :"playlist",
 
         "thumbLink" :"https://www.spotify.com/kr-ko/",
-        "thumbSrc" :"./asset/img/playlist/playlist_christmas_hits.jpg",
+        "thumbSrc" :"./asset/img/playlist/playlist_christmas_hits.webp",
         "title":"Christmas Hits",
         "info":"The biggest Christmas songs of all time."
     },
@@ -21,7 +21,7 @@
         "libraryCate" :"potcast",
 
         "thumbLink" :"https://www.spotify.com/kr-ko/",
-        "thumbSrc" :"./asset/img/potcast/potcast_case63.jpg",
+        "thumbSrc" :"./asset/img/potcast/potcast_case63.webp",
         "title":"Case 63",
         "info":"Gimlet"
     },
@@ -29,7 +29,7 @@
         "libraryCate" :"potcast",
 
         "thumbLink" :"https://www.spotify.com/kr-ko/",
-        "thumbSrc" :"./asset/img/potcast/potcast_eco.jpg",
+        "thumbSrc" :"./asset/img/potcast/potcast_eco.webp",
         "title":"[마포FM]에코쌀롱",
         "info":"[마포FM]에코쌀롱"
     },
@@ -37,7 +37,7 @@
         "libraryCate" :"potcast",
 
         "thumbLink" :"https://www.spotify.com/kr-ko/",
-        "thumbSrc" :"./asset/img/potcast/potcast_soil.jpg",
+        "thumbSrc" :"./asset/img/potcast/potcast_soil.webp",
         "title":"소일(SOIL)",
         "info":"SOIL"
     },
@@ -45,7 +45,7 @@
         "libraryCate" :"potcast",
 
         "thumbLink" :"https://www.spotify.com/kr-ko/",
-        "thumbSrc" :"./asset/img/potcast/potcast_book.jpg",
+        "thumbSrc" :"./asset/img/potcast/potcast_book.webp",
         "title":"책읽아웃",
         "info":"예스24"
     },
@@ -59,7 +59,7 @@
         "libraryCate" :"artist",
 
         "thumbLink" :"https://www.spotify.com/kr-ko/",
-        "thumbSrc" :"./asset/img/artist/artist_ariana_grande.jpg",
+        "thumbSrc" :"./asset/img/artist/artist_ariana_grande.webp",
         "title":"Ariana Grande",
         "info":"아티스트"
     },
@@ -67,7 +67,7 @@
         "libraryCate" :"artist",
 
         "thumbLink" :"https://www.spotify.com/kr-ko/",
-        "thumbSrc" :"./asset/img/artist/artist_jangkiha.jpg",
+        "thumbSrc" :"./asset/img/artist/artist_jangkiha.webp",
         "title":"장기하와 얼굴들",
         "info":"아티스트"
     },
@@ -75,7 +75,7 @@
         "libraryCate" :"artist",
 
         "thumbLink" :"https://www.spotify.com/kr-ko/",
-        "thumbSrc" :"./asset/img/artist/artist_sekai_no_owari.jpg",
+        "thumbSrc" :"./asset/img/artist/artist_sekai_no_owari.webp",
         "title":"SEKAI NO OWARI",
         "info":"아티스트"
     },
@@ -83,7 +83,7 @@
         "libraryCate" :"artist",
 
         "thumbLink" :"https://www.spotify.com/kr-ko/",
-        "thumbSrc" :"./asset/img/artist/artist_taylor_swift.jpg",
+        "thumbSrc" :"./asset/img/artist/artist_taylor_swift.webp",
         "title":"Taylor Swift",
         "info":"아티스트"
     },
@@ -91,7 +91,7 @@
         "libraryCate" :"artist",
 
         "thumbLink" :"https://www.spotify.com/kr-ko/",
-        "thumbSrc" :"./asset/img/artist/artist_taylor_swift.jpg",
+        "thumbSrc" :"./asset/img/artist/artist_sza.webp",
         "title":"SZA",
         "info":"아티스트"
     },
@@ -99,7 +99,7 @@
         "libraryCate" :"artist",
 
         "thumbLink" :"https://www.spotify.com/kr-ko/",
-        "thumbSrc" :"./asset/img/artist/artist_balckskirt.jpg",
+        "thumbSrc" :"./asset/img/artist/artist_balckskirt.webp",
         "title":"검정치마",
         "info":"아티스트"
     },
@@ -114,7 +114,7 @@
         "libraryCate" :"album",
 
         "thumbLink" :"https://www.spotify.com/kr-ko/",
-        "thumbSrc" :"./asset/img/album/album_love_is_love.jpg",
+        "thumbSrc" :"./asset/img/album/album_love_is_love.webp",
         "title":"Love is Love",
         "info":"jiae"
     },
@@ -122,7 +122,7 @@
         "libraryCate" :"album",
 
         "thumbLink" :"https://www.spotify.com/kr-ko/",
-        "thumbSrc" :"./asset/img/album/album_swipe.jpg",
+        "thumbSrc" :"./asset/img/album/album_swipe.webp",
         "title":"SWIPE",
         "info":"ALYPH"
     },
@@ -130,7 +130,7 @@
         "libraryCate" :"album",
 
         "thumbLink" :"https://www.spotify.com/kr-ko/",
-        "thumbSrc" :"./asset/img/album/album_midnights.jpg",
+        "thumbSrc" :"./asset/img/album/album_midnights.webp",
         "title":"Midnights",
         "info":"Taylor Swift"
     },
@@ -138,7 +138,7 @@
         "libraryCate" :"album",
 
         "thumbLink" :"https://www.spotify.com/kr-ko/",
-        "thumbSrc" :"./asset/img/album/album_ctrl.jpg",
+        "thumbSrc" :"./asset/img/album/album_ctrl.webp",
         "title":"Ctrl",
         "info":"SZA"
     },
@@ -146,7 +146,7 @@
         "libraryCate" :"album",
 
         "thumbLink" :"https://www.spotify.com/kr-ko/",
-        "thumbSrc" :"./asset/img/album/album_new_jeans.jpg",
+        "thumbSrc" :"./asset/img/album/album_new_jeans.webp",
         "title":"NewJeans 1st EP 'New Jeans'",
         "info":"NewJeans"
     },
@@ -154,7 +154,7 @@
         "libraryCate" :"album",
 
         "thumbLink" :"https://www.spotify.com/kr-ko/",
-        "thumbSrc" :"./asset/img/album/album_antifrgle.jpg",
+        "thumbSrc" :"./asset/img/album/album_antifrgle.webp",
         "title":"ANTIFRAGILE",
         "info":"LE SSERAFIM"
     }
