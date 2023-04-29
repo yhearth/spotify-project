@@ -3,7 +3,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":"",
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"팟캐스트",
         "thumbSrc":"asset/img/search/search_podcast.jpg",
         "thumbColor":"rgb(225, 51, 0)"
@@ -11,7 +11,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":"",
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"나만의 플레이리스트",
         "thumbSrc":"asset/img/search/search_my_platlist.png",
         "thumbColor":"rgb(30, 50, 100)"
@@ -19,7 +19,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"최신음악",
         "thumbSrc":"./asset/img/search/search_new_music.jpg",
         "thumbColor":"rgb(232, 17, 91)"
@@ -27,7 +27,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"가요",
         "thumbSrc":"./asset/img/search/seach_song.jpg",
         "thumbColor":"rgb(45, 70, 185))"
@@ -35,7 +35,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"팝",
         "thumbSrc":"./asset/img/search/search_pop.jpg",
         "thumbColor":"rgb(20, 138, 8)"
@@ -43,7 +43,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"힙합",
         "thumbSrc":"./asset/img/search/search_hiphop.jpg",
         "thumbColor":"rgb(188, 89, 0)"
@@ -51,7 +51,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"R&B",
         "thumbSrc":"./asset/img/search/search_R_B.jpg",
         "thumbColor":"rgb(220, 20, 140)"
@@ -59,7 +59,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"차트",
         "thumbSrc":"./asset/img/search/search_charts.jpg",
         "thumbColor":"rgb(141, 103, 171)"
@@ -67,7 +67,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"라이브 이벤트",
         "thumbSrc":"./asset/img/search/search_live_event.jpg",
         "thumbColor":"rgb(115, 88, 255)"
@@ -75,7 +75,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"RADAR",
         "thumbSrc":"./asset/img/search/search_radar.jpg",
         "thumbColor":"rgb(119, 119, 119)"
@@ -83,7 +83,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"Fresh Finda",
         "thumbSrc":"./asset/img/search/search_fresh_finds.jpg",
         "thumbColor":"rgb(255, 0, 144)"
@@ -91,7 +91,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"EQUAL",
         "thumbSrc":"./asset/img/search/search_equal.jpg",
         "thumbColor":"rgb(5, 105, 82)"
@@ -99,7 +99,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"록",
         "thumbSrc":"./asset/img/search/search_rock.jpg",
         "thumbColor":"rgb(233, 20, 41)"
@@ -107,7 +107,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"추천곡",
         "thumbSrc":"./asset/img/search/search_discover.jpg",
         "thumbColor":"rgb(141, 103, 171)"
@@ -115,7 +115,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"라틴",
         "thumbSrc":"./asset/img/search/search_ratino.jpg",
         "thumbColor":"rgb(225, 17, 140)"
@@ -123,7 +123,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"댄스/일렉트로닉",
         "thumbSrc":"./asset/img/search/search_dance_elect.jpg",
         "thumbColor":"rgb(216, 64, 0)"
@@ -131,7 +131,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"무드",
         "thumbSrc":"./asset/img/search/search_mood.jpg",
         "thumbColor":"rgb(225, 17, 140)"
@@ -139,7 +139,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"케이팝",
         "thumbSrc":"./asset/img/search/search_kpop.jpg",
         "thumbColor":"rgb(20, 138, 8)"
@@ -147,7 +147,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"인디",
         "thumbSrc":"./asset/img/search/search_indie.jpg",
         "thumbColor":"rgb(233, 20, 41)"
@@ -155,7 +155,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"운동",
         "thumbSrc":"./asset/img/search/search_sports.jpg",
         "thumbColor":"rgb(119, 119, 119)"
@@ -163,7 +163,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"컨트리",
         "thumbSrc":"./asset/img/search/search_country.jpg",
         "thumbColor":"rgb(216, 64, 0)"
@@ -171,7 +171,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"휴식",
         "thumbSrc":"./asset/img/search/search_chill.jpg",
         "thumbColor":"rgb(216, 64, 0)"
@@ -179,7 +179,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"수면",
         "thumbSrc":"./asset/img/search/search_sleep.jpg",
         "thumbColor":"rgb(30, 50, 100)"
@@ -187,7 +187,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"파티",
         "thumbSrc":"./asset/img/search/search_party.jpg",
         "thumbColor":"rgb(83, 122, 161)"
@@ -195,7 +195,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"At Home",
         "thumbSrc":"./asset/img/search/search_at_home.jpg",
         "thumbColor":"rgb(81, 121, 161)"
@@ -203,7 +203,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"시대별",
         "thumbSrc":"./asset/img/search/search_all_out.jpg",
         "thumbColor":"rgb(186, 93, 7)"
@@ -211,7 +211,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"디즈니",
         "thumbSrc":"./asset/img/search/search_disney.jpg",
         "thumbColor":"rgb(13, 114, 234)"
@@ -219,7 +219,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"로맨스",
         "thumbSrc":"./asset/img/search/search_romance.jpg",
         "thumbColor":"rgb(140, 25, 50)"
@@ -227,7 +227,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"메탈",
         "thumbSrc":"./asset/img/search/search_metal.jpg",
         "thumbColor":"rgb(233, 20, 41)"
@@ -235,7 +235,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"재즈",
         "thumbSrc":"./asset/img/search/search_jazz.jpg",
         "thumbColor":"rgb(119, 119, 119)"
@@ -243,7 +243,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"Trending",
         "thumbSrc":"./asset/img/search/search_trending.jpg",
         "thumbColor":"rgb(176, 40, 151)"
@@ -251,7 +251,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"드라이빙",
         "thumbSrc":"./asset/img/search/search_driving.jpg",
         "thumbColor":"rgb(205, 245, 100)"
@@ -259,7 +259,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"클랙식",
         "thumbSrc":"./asset/img/search/search_classic.jpg",
         "thumbColor":"rgb(125, 75, 50)"
@@ -267,7 +267,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"포크 및 어쿠스틱",
         "thumbSrc":"./asset/img/search/search_folk.jpg",
         "thumbColor":"rgb(188, 89, 0)"
@@ -275,7 +275,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"집중",
         "thumbSrc":"./asset/img/search/search_focue.jpg",
         "thumbColor":"rgb(80, 55, 80)"
@@ -283,7 +283,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"소울",
         "thumbSrc":"./asset/img/search/search_soul.jpg",
         "thumbColor":"rgb(220, 20, 140)"
@@ -291,7 +291,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"어린이 및 가족",
         "thumbSrc":"./asset/img/search/search_kids.jpg",
         "thumbColor":"rgb(141, 103, 171)"
@@ -299,7 +299,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"게임",
         "thumbSrc":"./asset/img/search/search_game.jpg",
         "thumbColor":"rgb(232, 17, 91)"
@@ -307,7 +307,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"애니메이션",
         "thumbSrc":"./asset/img/search/search_animation.jpg",
         "thumbColor":"rgb(228, 29, 99)"
@@ -315,7 +315,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"TV 및 영화",
         "thumbSrc":"./asset/img/search/search_moving.jpg",
         "thumbColor":"rgb(175, 40, 150)"
@@ -323,7 +323,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"Netflix",
         "thumbSrc":"./asset/img/search/search_netflix.jpg",
         "thumbColor":"rgb(235, 30, 50)"
@@ -331,7 +331,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"연주곡",
         "thumbSrc":"./asset/img/search/search_guitar.jpg",
         "thumbColor":"rgb(83, 122, 161)"
@@ -339,7 +339,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"펑크(Punk)",
         "thumbSrc":"./asset/img/search/search_punk.jpg",
         "thumbColor":"rgb(30, 50, 100)"
@@ -347,7 +347,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"앰비언트",
         "thumbSrc":"./asset/img/search/search_ambient.jpg",
         "thumbColor":"rgb(30, 50, 100)"
@@ -355,7 +355,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"블루스",
         "thumbSrc":"./asset/img/search/search_blues.jpg",
         "thumbColor":"rgb(176, 98, 57)"
@@ -363,7 +363,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"요리 및 식사",
         "thumbSrc":"./asset/img/search/search_dinner.jpg",
         "thumbColor":"rgb(186, 93, 7)"
@@ -371,7 +371,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"일본 트랙",
         "thumbSrc":"./asset/img/search/search_jpop.jpg",
         "thumbColor":"rgb(188, 89, 0)"
@@ -379,7 +379,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"얼터너티브",
         "thumbSrc":"./asset/img/search/search_alternative.jpg",
         "thumbColor":"rgb(233, 20, 41)"
@@ -387,7 +387,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"여행",
         "thumbSrc":"./asset/img/search/search_travel.jpg",
         "thumbColor":"rgb(13, 114, 237)"
@@ -395,7 +395,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"캐리비안",
         "thumbSrc":"./asset/img/search/search_island_pop.jpg",
         "thumbColor":"rgb(13, 115, 236)"
@@ -403,7 +403,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"아프리카",
         "thumbSrc":"./asset/img/search/search_african.jpg",
         "thumbColor":"rgb(216, 64, 0)"
@@ -411,7 +411,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"작곡가/작사가",
         "thumbSrc":"./asset/img/search/search_tamposi.jpg",
         "thumbColor":"rgb(140, 25, 50)"
@@ -419,7 +419,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"펑크(Funk)및 디스코",
         "thumbSrc":"./asset/img/search/search_funk.jpg",
         "thumbColor":"rgb(230, 30, 50)"
@@ -427,7 +427,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"League of Legends",
         "thumbSrc":"./asset/img/search/search_league_of_legends.jpg",
         "thumbColor":"rgb(20, 138, 8)"
@@ -435,7 +435,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"Spotify 싱글",
         "thumbSrc":"./asset/img/search/search_spotify_singles.jpg",
         "thumbColor":"rgb(119, 119, 119)"
@@ -443,7 +443,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"여름",
         "thumbSrc":"./asset/img/search/search_summer.jpg",
         "thumbColor":"rgb(67, 130, 112)"
@@ -451,7 +451,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"힌디",
         "thumbSrc":"./asset/img/search/search_bollywood.jpg",
         "thumbColor":"rgb(233, 20, 41)"
@@ -459,7 +459,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"Music & Talk",
         "thumbSrc":"./asset/img/search/search_music_talk.jpg",
         "thumbColor":"rgb(255, 70, 50)"
@@ -467,7 +467,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"아시아 태평양계(API)문화유산의 달",
         "thumbSrc":"./asset/img/search/search_api.jpg",
         "thumbColor":"rgb(245, 155, 35)"
@@ -475,7 +475,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"흑인의 역사는 계속됩니다",
         "thumbSrc":"./asset/img/search/search_black_lives_matter.jpg",
         "thumbColor":"rgb(40, 62, 163)"
@@ -483,7 +483,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"건강",
         "thumbSrc":"./asset/img/search/search_health.jpg",
         "thumbColor":"rgb(165, 103, 82)"
@@ -491,7 +491,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"유행의 선도자",
         "thumbSrc":"./asset/img/search/search_trend.png",
         "thumbColor":"rgb(232, 17, 91)"
@@ -500,7 +500,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"크리스천 및 가스펠",
         "thumbSrc":"./asset/img/search/search_christian.jpg",
         "thumbColor":"rgb(13, 115, 236)"
@@ -508,7 +508,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"노래방",
         "thumbSrc":"./asset/img/search/search_karaoke.jpg",
         "thumbColor":"rgb(80, 55, 80)"
@@ -516,7 +516,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"할로윈",
         "thumbSrc":"./asset/img/search/search_halloween.jpg",
         "thumbColor":"rgb(196, 195, 196)"
@@ -524,7 +524,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"레게",
         "thumbSrc":"./asset/img/search/search_reggae.jpg",
         "thumbColor":"rgb(0, 100, 80)"
@@ -532,7 +532,7 @@
     {
         "searchCate" : "genre",
 
-        "thumbLink":null,
+        "thumbLink":"https://www.spotify.com/kr-ko/",
         "title":"행복한 연말",
         "thumbSrc":"./asset/img/search/search_christmas.jpg",
         "thumbColor":"rgb(140, 25, 50)"

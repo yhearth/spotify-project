@@ -1,17 +1,13 @@
 (function($){
-    console.log("라이브러리 페이지");
-    
+//라이브러리 슬라이드 
     var librarySlider = new Swiper(".library_area",{
         spaceBetween:30,
-
         autiHeight:true,
-
     });
-
     $('.header_area .group_nav .nav_item').click(function(e){
         e.preventDefault();
 
-        idx = $(this).index();//누른 네비의 인덱스 번호
+        idx = $(this).index();
         console.log(idx);
 
         $(this).addClass('active').siblings().removeClass('active');
@@ -22,7 +18,7 @@
         idx = this.realIndex;
         $('.header_area .group_nav .nav_item').eq(idx).addClass('active').siblings().removeClass('active');
     })
-
+//아이템 박스 아이콘 애니메이션
     $('.library_area .liked_box').mouseover(function(){
         $(this).find('.ic_play').addClass('on');
     })
@@ -50,14 +46,10 @@
     }
 
 
-
-
-
-    ////////
+///////플레이리스트
     $.getJSON('asset/js/date/library.json',function(date,status){
         if(status == "success"){
             var result = date.filter(function (a) {return a.libraryCate == 'playlist'});
-
             var html = '';
             $.each(result,function(index,playlist){
                 html += '<div class="list_item">';     
@@ -72,7 +64,7 @@
             alert("불러오지못했습니다.");
         }
     });
-    ////////
+////////팟캐스트
     $.getJSON('asset/js/date/library.json',function(date,status){
         if(status == "success"){
             var result = date.filter(function (a) {return a.libraryCate == 'potcast'});
@@ -90,7 +82,7 @@
             alert("불러오지못했습니다.");
         }
     });
-    ////////
+ ////////아티스트
     $.getJSON('asset/js/date/library.json',function(date,status){
         if(status == "success"){
             var result = date.filter(function (a) {return a.libraryCate == 'artist'});
@@ -112,7 +104,7 @@
         }
         libraryItemAni();
     });
-     ////////
+ ////////앨범
      $.getJSON('asset/js/date/library.json',function(date,status){
         if(status == "success"){
             var result = date.filter(function (a) {return a.libraryCate == 'album'});
@@ -135,9 +127,8 @@
         libraryItemAni();
     });
 
-
     res.setHeader('Access-Control-Allow-origin', '*');
-    res.setHeader('Access-Control-Allow-Credentials', 'true'); // 쿠키 주고받기 허용
+    res.setHeader('Access-Control-Allow-Credentials', 'true'); 
 
 
 })(jQuery);

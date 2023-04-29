@@ -1,7 +1,6 @@
 (function($){
     console.log("검색하기 화면");
-
-
+//이미지 오버 애니메이션
     var genreItemAni = function(){
         genreItems = $('.search_area .genre_list').find('li');
         genreItems.mouseover(function(){
@@ -11,10 +10,7 @@
             $(this).find('.img_wrap').removeClass('on')
         });
     }
-
-
-
-    ////////
+////////
     $.getJSON('asset/js/date/search.json',function(date,status){
         if(status == "success"){
             var result = date.filter(function (a) {return a.searchCate == 'genre'});

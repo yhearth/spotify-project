@@ -186,18 +186,17 @@ header .header_area .info {
   border: 2px solid #222;
   background-color: rgba(0, 0, 0, 0.4);
 }
-header .header_area .info a {
+header .header_area .info button {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 16px;
-  height: 16px;
-  padding-bottom: 2px;
 }
-header .header_area .info a svg {
-  width: 100%;
+header .header_area .info button svg {
+  width: 17px;
+  height: 17px;
   fill: white;
+  margin-top: 2px;
 }
 header .header_area .group_srh {
   position: absolute;
@@ -380,7 +379,7 @@ header .header_area .group_nav .nav_wrap .nav_item a {
 .meun_page .meun_area .meun_cont .playlist_group .playlist_item {
   padding: 0 16px;
 }
-.meun_page .meun_area .meun_cont .playlist_group .playlist_item a {
+.meun_page .meun_area .meun_cont .playlist_group .playlist_item button {
   display: block;
   font-size: 18px;
   font-weight: 400;
@@ -609,6 +608,7 @@ main .main_area .sc_recommend .recomCate .tit_box h2 {
 }
 main .main_area .sc_recommend .recomCate .tit_box .link_more {
   position: absolute;
+  color: #fff;
   top: 50%;
   right: 0;
   transform: translateY(-50%);

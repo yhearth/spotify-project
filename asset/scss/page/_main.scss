@@ -96,7 +96,7 @@ main{
                     text-overflow: ellipsis;
                 }
                 .link_more{
-                    position: absolute;
+                    position: absolute;color:#fff;
                     top: 50%;right: 0;transform: translateY(-50%);
                     font-size: 10px;
                     font-weight: 500;
@@ -109,10 +109,9 @@ main{
                     display: flex;
                     align-items: center;
                     overflow: hidden;
-                    //&::after{content: "";display: block;clear: both;}
                     .list_item{
                         // float: left;
-                        flex-shrink: 0;//
+                        flex-shrink: 0;
                         width: calc(50% - 6px);
                         margin-right: 12px;
                         padding: 16px;box-sizing: border-box;
