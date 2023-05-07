@@ -1,393 +1,144 @@
+
+// fetch();
 (function($){
-    //메뉴 버튼
+    console.log('스포티파이 스크립트');
+
+    console.log(location.origin);
+
     $('#btnMeun').click(function(e){
         e.preventDefault();
        $('.meun_page').addClass('active');
        $('.info_page').removeClass('active');
 
     })
-    //메뉴 닫기 버튼
-    $('.btn_close').click(function(e){
-        e.preventDefault();
-        $('.meun_page').removeClass('active');
-        $('.info_page').removeClass('active');
-    })
-    //개인 정보 버튼
     $('.link_info').click(function(e){
         e.preventDefault();
        $('.info_page').addClass('active');
        $('.meun_page').removeClass('active');
 
     })
-//header 배경
+    $('.btn_close').click(function(e){
+        e.preventDefault();
+       $('.meun_page').removeClass('active');
+       $('.info_page').removeClass('active');
+
+    })
+
     gsap.to('.header_area',0.1,{
         scrollTrigger:{
             trigger:".header_area",
             start:"top top",
             scrub:1,
+            // markers:true
         },
         backgroundColor:"#000",
     })
-//이미지 오버시 애니메이션
     introItem = $('.sc_intro .music_list').find('li');
+
     introItem.mouseover(function(){
-      $(this).find('.ic_play').addClass('on');
+        $(this).find('.ic_play').addClass('on');
       $(this).addClass('on');
     })
     introItem.mouseout(function(){
         $(this).find('.ic_play').removeClass('on');
         $(this).removeClass('on');
-     })
+      })
 
-//이미지 오버시 아이콘 애니메이션
+    /////
+
+
     var listItemAni = function(){
-        recommendItems = $('.sc_recommend .music_list').find('li');
-        recommendItems.mouseover(function(){   
-           $(this).find('.ic_play').addClass('on');
-           $(this).addClass('on');
-         })
-         recommendItems.mouseout(function(){
-           $(this).find('.ic_play').removeClass('on');
-           $(this).removeClass('on');
-         })
+      musicBox = $('.music_list').find('li');
+      musicBox.mouseover(function(){   
+        $(this).find('.ic_play').addClass('on');
+        $(this).addClass('on');
+      })
+      musicBox.mouseout(function(){
+        $(this).find('.ic_play').removeClass('on');
+        $(this).removeClass('on');
+      })
+
+ }
+
+    //const musicListWrap = document.querySelectorAll('.sc_recommend .music_list')//console.log(musicListWrap.length);
+  
+    function listUpdate(){
+        for(let i = 1; i < 12 ;i++){  
+            let musicUl = document.getElementById(`music_list_${i}`)// console.log(musicUl,i)
+            musicList(musicUl,i);
+         }
     }
-///////
-    $.getJSON('asset/js/date/music.json',function(date,status){
-        if(status == "success"){
-            var result = date.filter(function (parm) {return (parm).recommendCate == '다시 들어보세요'});
-            var html = '';
-            $.each(result,function(index,replay){
-                html += '<li class="list_item">';     
-                html += '<a href="'+replay.musicSrc+'" class="img_wrap">';     
-                html += '<img src="'+replay.thumbSrc+'" alt="'+replay.albumLink+'">';  
-                html +='<div class="ic_play"><buttom class="play_btn">'   
-                html +='<span><svg><path d="M7.05 3.606l13.49 7.788a.7.7 0 010 1.212L7.05 20.394A.7.7 0 016 19.788V4.212a.7.7 0 011.05-.606z"></path></svg></span>'  
-                html +='</buttom></div></a>' 
-                html += '<a href="'+replay.musicSrc+'" class="txt_wrap">';     
-                html += '<strong class="tit">'+replay.title+'</strong>';     
-                html += '<span class="info">'+replay.artist+'</span></a></li>';            
-            });
-            $('.group_replay .music_list').append(html);
+    function musicList(frame,themeNum,musicNum){
+      fetch("./asset/js/date/music.json")
+      .then((response) => response.json())
+      .then((json) => {
+        data = json.music;
 
-        }else if(status == 'error' || status == "parsererror"){
-            alert("불러오지못했습니다.");
-        }
-        listItemAni();
-    });
-    ////////
-    $.getJSON('asset/js/date/music.json',function(date,status){
-        if(status == "success"){
-            var result = date.filter(function (a) {return a.recommendCate == 'mixed'});
-            var html = '';
-            $.each(result,function(index,mixed){
-                html += '<li class="list_item">';     
-                html += '<a href="'+mixed.musicSrc+'" class="img_wrap">';     
-                html += '<img src="'+mixed.thumbSrc+'" alt="'+mixed.albumLink+'">';  
-                html +='<div class="ic_play"><buttom class="play_btn">'   
-                html +='<span><svg><path d="M7.05 3.606l13.49 7.788a.7.7 0 010 1.212L7.05 20.394A.7.7 0 016 19.788V4.212a.7.7 0 011.05-.606z"></path></svg></span>'  
-                html +='</buttom></div></a>'
-                html += '<div href="" class="txt_wrap">';     
-                html += '<a href="'+mixed.musicSic+'" class="tit">'+mixed.title+'</a>';     
-                html += '<div class="info">';
-                html += '<a href="https://yhearth.github.io/spotify-project/" class="crush">'+mixed.artistA+'</a>,';
-                html += '<a href="https://yhearth.github.io/spotify-project/" class="twice">'+mixed.artistB+'</a>,';
-                html += '<a href="https://yhearth.github.io/spotify-project/" class="kep1er">'+mixed.artistC+'</a>등';
-                html += '</div></div></li>'    
-            });
-            $('.group_mixed .music_list').append(html);
-        }else if(status == 'error' || status == "parsererror"){
-            alert("불러오지못했습니다.");
-        }
-        listItemAni();
-    });
-    ////////
-    $.getJSON('asset/js/date/music.json',function(date,status){
-        if(status == "success"){
-            var result = date.filter(function (a) {return a.recommendCate == 'played'});
-            var html = '';
-            $.each(result,function(index,played){
-                html += '<li class="list_item">';     
-                html += '<a href="'+played.musicSrc+'" class="img_wrap">';     
-                html += '<img src="'+played.thumbSrc+'" alt="'+played.albumLink+'">';  
-                html +='<div class="ic_play"><buttom class="play_btn">'   
-                html +='<span><svg><path d="M7.05 3.606l13.49 7.788a.7.7 0 010 1.212L7.05 20.394A.7.7 0 016 19.788V4.212a.7.7 0 011.05-.606z"></path></svg></span>'  
-                html +='</buttom></div></a>'   
-                html += '<div href="" class="txt_wrap">';     
-                html += '<a href="'+played.musicSic+'" class="tit">'+played.title+'</a>';     
-                html += '<div class="info">';
-                html += '<span>'+played.musicInfo+'</span>';
-                html += '<a href="https://yhearth.github.io/spotify-project/">'+played.artistA+'</a>';
-                html += '<a href="https://yhearth.github.io/spotify-project/">'+played.artistB+'</a>';
-                html += '<a href="https://yhearth.github.io/spotify-project/">'+played.artistC+'</a>';
-                html += '</div></li>'    
-            });
-            $('.group_played .music_list').append(html);
-        }else if(status == 'error' || status == "parsererror"){
-            alert("불러오지못했습니다.");
-        }
-        listItemAni();
-    });
-    ////////
-    $.getJSON('asset/js/date/music.json',function(date,status){
-        if(status == "success"){
-            var result = date.filter(function (a) {return a.recommendCate == 'recomMix'});
-            var html = '';
-            $.each(result,function(index,recomMix){
-                html += '<li class="list_item">';     
-                html += '<a href="'+recomMix.musicSrc+'" class="img_wrap">';     
-                html += '<img src="'+recomMix.thumbSrc+'" alt="'+recomMix.albumLink+'">';
-                html +='<div class="ic_play"><buttom class="play_btn">'   
-                html +='<span><svg><path d="M7.05 3.606l13.49 7.788a.7.7 0 010 1.212L7.05 20.394A.7.7 0 016 19.788V4.212a.7.7 0 011.05-.606z"></path></svg></span>'  
-                html +='</buttom></div></a>' 
-                html += '<div href="" class="txt_wrap">';     
-                html += '<a href="'+recomMix.musicSic+'" class="tit">'+recomMix.title+'</a>';     
-                html += '<div class="info">';
-                html += '<span>'+recomMix.musicInfo+'</span>';
-                html += '<a href="https://yhearth.github.io/spotify-project/">'+recomMix.artistA+'</a>';
-                html += '<a href="https://yhearth.github.io/spotify-project/">'+recomMix.artistB+'</a>';
-                html += '<a href="https://yhearth.github.io/spotify-project/">'+recomMix.artistC+'</a>';
-                html += '</div></li>'    
-            });
-            $('.group_recomMix .music_list').append(html);
-            }else if(status == 'error' || status == "parsererror"){
-                alert("불러오지못했습니다.");
-            }
+       var result = data.filter(function (elem) {return elem.musicList == themeNum}) 
 
-        listItemAni();
-    });
-    ////////
-    $.getJSON('asset/js/date/music.json',function(date,status){
-        if(status == "success"){
-            var result = date.filter(function (a) {return a.recommendCate == 'recomRadio'});
-            var html = '';
-            $.each(result,function(index,recomRadio){
-                html += '<li class="list_item">';     
-                html += '<a href="'+recomRadio.musicSrc+'" class="img_wrap">';     
-                html += '<img src="'+recomRadio.thumbSrc+'" alt="'+recomRadio.albumLink+'">'; 
-                html +='<div class="ic_play"><buttom class="play_btn">'   
-                html +='<span><svg><path d="M7.05 3.606l13.49 7.788a.7.7 0 010 1.212L7.05 20.394A.7.7 0 016 19.788V4.212a.7.7 0 011.05-.606z"></path></svg></span>'  
-                html +='</buttom></div></a>'     
-                html += '<div href="" class="txt_wrap">';     
-                html += '<a href="'+recomRadio.musicSic+'" class="tit">'+recomRadio.title+'</a>';     
-                html += '<div class="info">';
-                html += '<span>'+recomRadio.musicInfo+'</span>';
-                html += '<a href="https://yhearth.github.io/spotify-project/">'+recomRadio.artistA+'</a>';
-                html += '<a href="https://yhearth.github.io/spotify-project/">'+recomRadio.artistB+'</a>';
-                html += '<a href="https://yhearth.github.io/spotify-project/">'+recomRadio.artistC+'</a>';
-                html += '</div></li>'    
-            });
-            $('.group_recomRadio .music_list').append(html);
-        }else if(status == 'error' || status == "parsererror"){
-            alert("불러오지못했습니다.");
-        }
-        listItemAni();
-    });
-    ////////
-    $.getJSON('asset/js/date/music.json',function(date,status){
-        if(status == "success"){
-            var result = date.filter(function (a) {return a.recommendCate == 'recomArtist'});
+       let html = '';
+       result.forEach(elem => {
+        isArtist = `<small>${elem.element.artist}</small>`;
+        isArtistA = `<span>${elem.element.artistA}</span>`;
+        isArtistB = `<span>${elem.element.artistB}</span>`;
+        isArtistC = `<span>${elem.element.artistC}</span>`;
+        isDesc = `<p>${elem.element.musicInfo}</p>`;
 
-            var html = '';
-            $.each(result,function(index,recomArtist){
-  
-                html += '<li class="list_item">';     
-                html += '<a href="'+recomArtist.musicSrc+'" class="img_wrap">';     
-                html += '<img src="'+recomArtist.thumbSrc+'" alt="'+recomArtist.albumLink+'">';     
-                html +='<div class="ic_play"><buttom class="play_btn">'   
-                html +='<span><svg><path d="M7.05 3.606l13.49 7.788a.7.7 0 010 1.212L7.05 20.394A.7.7 0 016 19.788V4.212a.7.7 0 011.05-.606z"></path></svg></span>'  
-                html +='</buttom></div></a>'
-                html += '<div href="" class="txt_wrap">';     
-                html += '<a href="'+recomArtist.musicSic+'" class="tit">'+recomArtist.title+'</a>';     
-                html += '<div class="info">';
-                html += '<span>'+recomArtist.musicInfo+'</span>';
-                html += '<a href="https://yhearth.github.io/spotify-project/">'+recomArtist.artistA+'</a>';
-                html += '<a href="https://yhearth.github.io/spotify-project/">'+recomArtist.artistB+'</a>';
-                html += '<a href="https://yhearth.github.io/spotify-project/">'+recomArtist.artistC+'</a>';
-                html += '</div></li>'    
-            });
-            $('.group_recomArtist .music_list').append(html);
-        }else if(status == 'error' || status == "parsererror"){
-            alert("불러오지못했습니다.");
-        }
-        listItemAni();
-    });
-    ////////
-      $.getJSON('asset/js/date/music.json',function(date,status){
-        if(status == "success"){
-            var result = date.filter(function (a) {return a.recommendCate == 'kpopRadio'});
+        artist = (elem.element.artist) ? isArtist : "";
+        artistA = (elem.element.artistA) ? isArtistA : "";artistB = (elem.element.artistB) ? isArtistB : "";artistC = (elem.element.artistC) ? isArtistC : "";
+        desc = (elem.element.musicInfo) ? isDesc : "";
 
-            var html = '';
-            $.each(result,function(index,kpopRadio){
-  
-                html += '<li class="list_item">';     
-                html += '<a href="'+kpopRadio.musicSrc+'" class="img_wrap">';     
-                html += '<img src="'+kpopRadio.thumbSrc+'" alt="'+kpopRadio.albumLink+'">';  
-                html +='<div class="ic_play"><buttom class="play_btn">'   
-                html +='<span><svg><path d="M7.05 3.606l13.49 7.788a.7.7 0 010 1.212L7.05 20.394A.7.7 0 016 19.788V4.212a.7.7 0 011.05-.606z"></path></svg></span>'  
-                html +='</buttom></div></a>'   
-                html += '<div href="" class="txt_wrap">';     
-                html += '<a href="'+kpopRadio.musicSic+'" class="tit">'+kpopRadio.title+'</a>';     
-                html += '<div class="info">';
-                html += '<span>'+kpopRadio.musicInfo+'</span>';
-                html += '<a href="https://yhearth.github.io/spotify-project/">'+kpopRadio.artistA+'</a>';
-                html += '<a href="https://yhearth.github.io/spotify-project/">'+kpopRadio.artistB+'</a>';
-                html += '<a href="https://yhearth.github.io/spotify-project/">'+kpopRadio.artistC+'</a>';
-                html += '</div></li>'    
-            });
-            $('.group_kpopRadio .music_list').append(html);
-        }else if(status == 'error' || status == "parsererror"){
-            alert("불러오지못했습니다.");
-        }
-        listItemAni();
-    });
-    ////////
-    $.getJSON('asset/js/date/music.json',function(date,status){
-        if(status == "success"){
-            var result = date.filter(function (a) {return a.recommendCate == 'popRadio'});
+          html +=`
+              <li class="swiper-slide list_item">
+                  <a href="${elem.element.musicSrc}" class="img_wrap">
+                      <img src="${elem.element.thumbSrc}" alt="노래 커버 이미지">
+                        <div class="ic_play">
+                          <buttom class="play_btn">
+                              <span><svg><path d="M7.05 3.606l13.49 7.788a.7.7 0 010 1.212L7.05 20.394A.7.7 0 016 19.788V4.212a.7.7 0 011.05-.606z"></path></svg></span>
+                          </buttom>
+                      </div>
+                  </a>
+                  <a href="${elem.element.albumLink}" class="txt_wrap">
+                      <strong class="tit">${elem.element.title}</strong>
+                      <div class="info"> 
+                            ${artist}
+                            ${artistA}${artistB}${artistC}
+                            ${desc}
+                      </div>
+                  </a>
+              </li>
+          `;
+       });
 
-            var html = '';
-            $.each(result,function(index,popRadio){
-  
-                html += '<li class="list_item">';     
-                html += '<a href="'+popRadio.musicSrc+'" class="img_wrap">';     
-                html += '<img src="'+popRadio.thumbSrc+'" alt="'+popRadio.albumLink+'">';  
-                html +='<div class="ic_play"><buttom class="play_btn">'   
-                html +='<span><svg><path d="M7.05 3.606l13.49 7.788a.7.7 0 010 1.212L7.05 20.394A.7.7 0 016 19.788V4.212a.7.7 0 011.05-.606z"></path></svg></span>'  
-                html +='</buttom></div></a>'    
-                html += '<div href="" class="txt_wrap">';     
-                html += '<a href="'+popRadio.musicSic+'" class="tit">'+popRadio.title+'</a>';     
-                html += '<div class="info">';
-                html += '<span>'+popRadio.musicInfo+'</span>';
-                html += '<a href="https://yhearth.github.io/spotify-project/">'+popRadio.artistA+'</a>';
-                html += '<a href="https://yhearth.github.io/spotify-project/">'+popRadio.artistB+'</a>';
-                html += '<a href="https://yhearth.github.io/spotify-project/">'+popRadio.artistC+'</a>';
-                html += '</div></li>'    
-            });
-            $('.group_popRadio .music_list').append(html);
-        }else if(status == 'error' || status == "parsererror"){
-            alert("불러오지못했습니다.");
-        }
-        listItemAni();
-    });
-    ////////
-    $.getJSON('asset/js/date/music.json',function(date,status){
-        if(status == "success"){
-            var result = date.filter(function (a) {return a.recommendCate == 'danceMix'});
+      $(frame).html(html)
+      listItemAni();
+      musicSlide();
+      })
 
-            var html = '';
-            $.each(result,function(index,danceMix){
-  
-                html += '<li class="list_item">';     
-                html += '<a href="'+danceMix.musicSrc+'" class="img_wrap">';     
-                html += '<img src="'+danceMix.thumbSrc+'" alt="'+danceMix.albumLink+'">';
-                html +='<div class="ic_play"><buttom class="play_btn">'   
-                html +='<span><svg><path d="M7.05 3.606l13.49 7.788a.7.7 0 010 1.212L7.05 20.394A.7.7 0 016 19.788V4.212a.7.7 0 011.05-.606z"></path></svg></span>'  
-                html +='</buttom></div></a>'      
-                html += '<div href="" class="txt_wrap">';     
-                html += '<a href="'+danceMix.musicSic+'" class="tit">'+danceMix.title+'</a>';     
-                html += '<div class="info">';
-                html += '<span>'+danceMix.musicInfo+'</span>';
-                html += '<a href="https://yhearth.github.io/spotify-project/">'+danceMix.artistA+'</a>';
-                html += '<a href="https://yhearth.github.io/spotify-project/">'+danceMix.artistB+'</a>';
-                html += '<a href="https://yhearth.github.io/spotify-project/">'+danceMix.artistC+'</a>';
-                html += '</div></li>'    
-            });
-            $('.group_danceMix .music_list').append(html);
-        }else if(status == 'error' || status == "parsererror"){
-            alert("불러오지못했습니다.");
-        }
-        listItemAni();
-    });
-    ////////
-    $.getJSON('asset/js/date/music.json',function(date,status){
-        if(status == "success"){
-            var result = date.filter(function (a) {return a.recommendCate == 'moodMix'});
+    }
+    function musicSlide(){
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 2,
+        spaceBetween: 24,
+        breakpoints: {
+          767: { 
+              slidesPerView: 3,
+              spaceBetween: 18,
+            },
+          1024: { 
+              slidesPerView: 4,
+          },
+          1440: { 
+              slidesPerView: 5,
+            },
+          },
+      });
+    }
 
-            var html = '';
-            $.each(result,function(index,moodMix){
-  
-                html += '<li class="list_item">';     
-                html += '<a href="'+moodMix.musicSrc+'" class="img_wrap">';     
-                html += '<img src="'+moodMix.thumbSrc+'" alt="'+moodMix.albumLink+'">'; 
-                html +='<div class="ic_play"><buttom class="play_btn">'   
-                html +='<span><svg><path d="M7.05 3.606l13.49 7.788a.7.7 0 010 1.212L7.05 20.394A.7.7 0 016 19.788V4.212a.7.7 0 011.05-.606z"></path></svg></span>'  
-                html +='</buttom></div></a>'     
-                html += '<div href="" class="txt_wrap">';     
-                html += '<a href="'+moodMix.musicSic+'" class="tit">'+moodMix.title+'</a>';     
-                html += '<div class="info">';
-                html += '<span>'+moodMix.musicInfo+'</span>';
-                html += '<a href="https://yhearth.github.io/spotify-project/">'+moodMix.artistA+'</a>';
-                html += '<a href="https://yhearth.github.io/spotify-project/">'+moodMix.artistB+'</a>';
-                html += '<a href="https://yhearth.github.io/spotify-project/">'+moodMix.artistC+'</a>';
-                html += '</div></li>'    
-            });
-            $('.group_moodMix .music_list').append(html);
-        }else if(status == 'error' || status == "parsererror"){
-            alert("불러오지못했습니다.");
-        }
-        listItemAni();
-    });
-     ////////
-     $.getJSON('asset/js/date/music.json',function(date,status){
-        if(status == "success"){
-            var result = date.filter(function (a) {return a.recommendCate == 'workMix'});
-
-            var html = '';
-            $.each(result,function(index,workMix){
-  
-                html += '<li class="list_item">';     
-                html += '<a href="'+workMix.musicSrc+'" class="img_wrap">';     
-                html += '<img src="'+workMix.thumbSrc+'" alt="'+workMix.albumLink+'">'; 
-                html +='<div class="ic_play"><buttom class="play_btn">'   
-                html +='<span><svg><path d="M7.05 3.606l13.49 7.788a.7.7 0 010 1.212L7.05 20.394A.7.7 0 016 19.788V4.212a.7.7 0 011.05-.606z"></path></svg></span>'  
-                html +='</buttom></div></a>'    
-                html += '<div href="" class="txt_wrap">';     
-                html += '<a href="'+workMix.musicSic+'" class="tit">'+workMix.title+'</a>';     
-                html += '<div class="info">';
-                html += '<span>'+workMix.musicInfo+'</span>';
-                html += '<a href="https://yhearth.github.io/spotify-project/">'+workMix.artistA+'</a>';
-                html += '<a href="https://yhearth.github.io/spotify-project/">'+workMix.artistB+'</a>';
-                html += '<a href="https://yhearth.github.io/spotify-project/">'+workMix.artistC+'</a>';
-                html += '</div></li>'    
-            });
-            $('.group_workMix .music_list').append(html);
-        }else if(status == 'error' || status == "parsererror"){
-            alert("불러오지못했습니다.");
-        }
-        listItemAni();
-    });
-     ////////
-     $.getJSON('asset/js/date/music.json',function(date,status){
-        if(status == "success"){
-            var result = date.filter(function (a) {return a.recommendCate == 'stateMix'});
-
-            var html = '';
-            $.each(result,function(index,stateMix){
-  
-                html += '<li class="list_item">';     
-                html += '<a href="'+stateMix.musicSrc+'" class="img_wrap">';     
-                html += '<img src="'+stateMix.thumbSrc+'" alt="'+stateMix.albumLink+'">'; 
-                html +='<div class="ic_play"><buttom class="play_btn">'   
-                html +='<span><svg><path d="M7.05 3.606l13.49 7.788a.7.7 0 010 1.212L7.05 20.394A.7.7 0 016 19.788V4.212a.7.7 0 011.05-.606z"></path></svg></span>'  
-                html +='</buttom></div></a>'    
-                html += '<div href="" class="txt_wrap">';     
-                html += '<a href="'+stateMix.musicSic+'" class="tit">'+stateMix.title+'</a>';     
-                html += '<div class="info">';
-                html += '<span>'+stateMix.musicInfo+'</span>';
-                html += '<a href="https://yhearth.github.io/spotify-project/">'+stateMix.artistA+'</a>';
-                html += '<a href="https://yhearth.github.io/spotify-project/">'+stateMix.artistB+'</a>';
-                html += '<a href="https://yhearth.github.io/spotify-project/">'+stateMix.artistC+'</a>';
-                html += '</div></li>'    
-            });
-            $('.group_stateMix .music_list').append(html);
-        }else if(status == 'error' || status == "parsererror"){
-            alert("불러오지못했습니다.");
-        }
-        listItemAni();
-    });
+    window.addEventListener('load',listUpdate)
 
 
-
+    
     
 
 

@@ -1,16 +1,17 @@
 header{
     position: relative;
     color:white;
+    //헤더 속 상단영역/메뉴영역/계정영역 이 있으므로 고정 x
     .inner{
         width: 100%;
         padding: 0 15px;
     }
     .header_area{
-        position: fixed;top: 0;left: 0;
-        width: 100%;height: 64px;
+        position: fixed;top: 0;left: 0;//위치
+        width: 100%;height: 64px;//모양
         padding: 16px;box-sizing: border-box;
 
-       overflow: hidden;
+       overflow: hidden;//메뉴와 회원정보 flaot 고정
         background-color:transparent;
         min-width: 375px;
         z-index: 10;
@@ -36,10 +37,11 @@ header{
             width: 68px;height: 32px;
             margin-left: 16px;
             
-            overflow: hidden;
+            overflow: hidden;//로고 제거용
             a{
                position: absolute;top: 0;right: 0;
                width: 100px;height: 100%;
+               //이미지 크롭용
               img{ width: 100%;}
             }
         }
@@ -64,9 +66,9 @@ header{
             border:2px solid #222;
             background-color: rgba(0,0,0,.4);
             button{
-               position: absolute;
-               top: 50%;left: 50%;transform: translate(-50%, -50%);
-              svg{width:17px;height:17px;;fill:white;margin-top:2px;}
+              position: absolute;
+              top: 50%;left: 50%;transform: translate(-50%, -50%);
+              svg{width: 16px;height: 16px;fill:white;}
             }
 
         }
@@ -106,6 +108,7 @@ header{
             top: 50%;left:32px;transform: translateY(-50%);
             margin-left: 16px;
             padding-left: 12px;
+            // background-color: #f00;
             .nav_wrap{
                 overflow: hidden;
                 .nav_item{

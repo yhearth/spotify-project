@@ -1,748 +1,722 @@
-[
-   {
-     "recommendCate": "다시 들어보세요",
+{
+   "music":[
+      {
+         "id":"",
+         "musicList":1,
+         "element":{
+            "musicSrc":"",
+            "thumbSrc":"./asset/img/replay_cardi_b_mix.webp",
+            "albumLink" :"카디비 믹스 이미지",
+            "title":"Cardi B 믹스",
+            "artist":"Megan Thee Stallion,cupcake,Chloe 등"
+         }
+       },
+       {
+         "id":"",
+         "musicList":1,
+         "element":{
+            "musicSrc":"",
+            "thumbSrc":"asset/img/replay_daily_mix_4.webp",
+            "albumLink" :"데일리 믹스 4 이미지",
+            "title":"데일리 믹스 4",
+            "artist":"Bruno Mas,Harry Styles,Kesha 등 "
+         }
 
+      },
+      {
+         "id":"",
+         "musicList":1,
+         "element":{
+            "musicSrc":null,
+            "thumbSrc":"asset/img/replay_feelin_myself.webp",
+            "albumLink" :null,
+            "title":"Feelin Myself",
+            "artist":"",
+            "musicInfo":"The hip-hop playlist that's a whole mood. Art By Laci Jordan; Cover: Big Boss Vette"
+         }
+
+      }, 
+      {
+         "id":"",
+         "musicList":1,
+         "element":{
+            "musicSrc":null,
+            "thumbSrc":"asset/img/replay_hot_now.webp",
+            "albumLink" :null,
+            "title":"인기가요 Hot Now",
+            "musicInfo":"지금 국내에서 가장 핫한 노래들을 만나보세요! (커버: NewJeans(뉴진스))"
+         }
+
+      },
+      {
+         "id":"",
+         "musicList":1,
+         "element":{
+            "musicSrc":null,
+            "thumbSrc":"asset/img/replay_feelin_myself.webp",
+            "albumLink" :null,
+            "title":"Feelin Myself",
+            "musicInfo":"The hip-hop playlist that's a whole mood. Art By Laci Jordan; Cover: Big Boss Vette"
+         }
+
+     }, 
+     {
+         "id":"",
+         "musicList":1,
+         "element":{
+            "musicSrc":null,
+            "thumbSrc":"asset/img/replay_hot_now.webp",
+            "albumLink" :null,
+            "title":"인기가요 Hot Now",
+            "musicInfo":"지금 국내에서 가장 핫한 노래들을 만나보세요! (커버: NewJeans(뉴진스))"
+         }
+
+     },
+      {
+         "id":"",
+         "musicList":2,
+         "element":{
+            "musicSrc":null,
+            "thumbSrc":"asset/img/mix_aespa.webp",
+            "albumLink" :null,
+            "title":"aespa 믹스",
+            "artist":null,
+            "artistA":"crush",
+            "artistB":"twice",
+            "artistC":"kep1er"
+         }
+
+      },
+      {
+         "id":"",
+         "musicList":2,
+         "element":{
+            "musicSrc":null,
+            "thumbSrc":"asset/img/mix_kpop.webp",
+            "albumLink" :null,
+            "title":"K-Pop 믹스",
+            "artist":null,
+            "artistA":"BLACKPINK",
+            "artistB":"GOT th beat",
+            "artistC":"LESSERAFIM"
+         }
+
+      },
+      {
+         "id":"",
+         "musicList":2,
+         "element":{
+            "musicSrc":null,
+            "thumbSrc":"asset/img/mix_pop.webp",
+            "albumLink" :null,
+            "title":"팝 믹스",
+            "artist":null,
+            "artistA":"Ariana Grande",
+            "artistB":"Bruno Mars",
+            "artistC":"Dua Lipa"
+         }
+
+     },
+     {
+         "id":"",
+         "musicList":2,
+         "element":{
+            "musicSrc":null,
+            "thumbSrc":"asset/img/mix_happy.webp",
+            "albumLink" :null,
+            "title":"해피 믹스",
+            "artist":null,
+            "artistA":"Harry Styles",
+            "artistB":"투모로우바이투게더",
+            "artistC":"ENHYPEN"
+         }
+
+     },
+     {
+         "id":"",
+         "musicList":2,
+         "element":{
+            "musicSrc":null,
+            "thumbSrc":"asset/img/mix_2010.webp",
+            "albumLink" :null,
+            "title":"2010년대의 믹스",
+            "artist":null,
+            "artistA":"EXO",
+            "artistB":"NS 윤지",
+            "artistC":"BLACKPINK"
+         }
+
+     },
+     {
+         "id":"",
+         "musicList":2,
+         "element":{
+            "musicSrc":null,
+            "thumbSrc":"asset/img/mix_jpop.webp",
+            "albumLink" :null,
+            "title":"J-Pop 믹스",
+            "artistA":"Sheeena Ringo",
+            "artistB":"SEKAI NO OWARI",
+            "artistC":null
+         }
+ 
+     },
+
+ {
+         "id":"",
+         "musicList":3,
+         "element":{
+            "musicSrc":null,
+            "thumbSrc":"asset/img/played/played_nolja.webp",
+            "albumLink" :null,
+            "title":"Nolja!",
+            "musicInfo":"Time to press play on these jaem jams from 2010 onwards! Cover: TWICE",
+            "artistA":"",
+            "artistB":"",
+            "artistC":""
+         }
+
+ },
+ {
+         "id":"",
+         "musicList":3,
+         "element":{
+            "musicSrc":null,
+            "thumbSrc":"asset/img/played/played_pops_sauce.webp",
+            "albumLink" :null,
+            "title":"Pop Sauce",
+            "musicInfo":"next gen pop",
+            "artistA":"cover: Jessie Murph",
+            "artistB":"",
+            "artistC":""
+         }
+
+ },
+ {
+     "id":"",
+     "musicList":3,
+     "element":{
+         "musicSrc":null,
+         "thumbSrc":"asset/img/played/played_hiphopplaya_festival.webp",
+         "albumLink" :null,
+         "title":"HIPHOPPLAYA FESTIVAL 2022",
+         "musicInfo":"Meet the lineup of HIPHOPPLAYA FESTIVAL 2022, the largest outdoor hip-hop festival in Korea! (한국 최대 규모의 야외 힙합 페스티벌 HIPHOPPLAYA FESTIVAL 2022의 라인업을 만나보세요!)",
+         "artistA":"",
+         "artistB":"",
+         "artistC":""
+   }
+  
+ },
+ {
+     "id":"",
+     "musicList":3,
+     "element":{
+         "musicSrc":null,
+         "thumbSrc":"asset/img/played/played_get_turnt.webp",
+         "albumLink" :null,
+         "title":"Get Turnt",
+         "musicInfo":"Mode: Turnt",
+         "artistA":"",
+         "artistB":"",
+         "artistC":""
+   }
+  
+ },
+ {
+     "id":"",
+     "musicList":4,
+     "element":{
+         "musicSrc":null,
+         "thumbSrc":"asset/img/recomMix/recomMix_new_radar.webp",
+         "albumLink" :null,
+         "title":"신곡 레이더",
+         "musicInfo":"팔로우하는 아티스트의 최신 음악과 고객님만을 위해 선별한 최신 싱글을 모두 들어보세요. 금요일마다 업데이트됩니다.",
+         "artistA":"",
+         "artistB":"",
+         "artistC":""
+   }
+
+ },
+ {
+     "id":"",
+     "musicList":4,
+     "element":{
+         "musicSrc":null,
+         "thumbSrc":"./asset/img/recomMix/recomMix_dailymix3.webp",
+         "albumLink" :null,
+         "title":"데일리 믹스 3",
+         "musicInfo":"",
+         "artistA":"NS Yoon-G,",
+         "artistB":"SUNMI,",
+         "artistC":"Kep1er 등"
+   }
+  
+ },
+ {
+     "id":"",
+     "musicList":4,
+     "element":{
+         "musicSrc":null,
+         "thumbSrc":"./asset/img/recomMix/recomMix_dailymix5.webp",
+         "albumLink" :null,
+         "title":"데일리 믹스 5",
+         "musicInfo":"",
+         "artistA":"XXXTENTACION,",
+         "artistB":"The Kid LAROI,",
+         "artistC":"Juice WRLD 등"
+   }
+
+ },
+ {
+     "id":"",
+     "musicList":4,
+     "element":{
+         "musicSrc":null,
+         "thumbSrc":"./asset/img/recomMix/recomMix_new_weekly.webp",
+         "albumLink" :null,
+         "title":"새 위클리 추천곡",
+         "musicInfo":"이번 주 최신 음악 믹스테이프입니다. 고객님을 위해 엄선한 새로운 음악과 숨겨진 명곡을 만끽하세요. 월요일마다 업데이트됩니다.",
+         "artistA":"",
+         "artistB":"",
+         "artistC":""
+   }
+
+ },
+ {
+   "id":"",
+   "musicList":5,
+   "element":{
       "musicSrc":"https://www.spotify.com/kr-ko/",
-      "thumbSrc":"./asset/img/replay_cardi_b_mix.webp",
-      "albumLink" :"카디비 믹스 이미지",
-      "title":"Cardi B 믹스",
-      "artist":"Megan Thee Stallion,cupcake,Chloe 등"
+      "thumbSrc":"./asset/img/recomRadio/recomRadio_ariana.webp",
+      "albumLink" :"추천곡 믹스 이미지",
+      "title":"Ariana Grande 라디오",
+      "musicInfo":"만든사람 : spotify",
+      "artistA":"",
+      "artistB":"",
+      "artistC":""
+      }
    },
    {
-    "recommendCate": "다시 들어보세요",
-     
-     "musicSrc":"https://www.spotify.com/kr-ko/",
-     "thumbSrc":"asset/img/replay_daily_mix_4.webp",
-     "albumLink" :"데일리 믹스 4 이미지",
-     "title":"데일리 믹스 4",
-     "artist":"Bruno Mas,Harry Styles,Kesha 등 "
-  },
-  {
-    "recommendCate": "다시 들어보세요",
-     
-     "musicSrc":"https://www.spotify.com/kr-ko/",
-     "thumbSrc":"asset/img/replay_feelin_myself.webp",
-     "albumLink" :"Feelin Myself 추천곡 믹스 이미지",
-     "title":"Feelin Myself",
-     "artist":"The hip-hop playlist that's a whole mood. Art By Laci Jordan; Cover: Big Boss Vette"
-  }, 
-  {
-    "recommendCate": "다시 들어보세요",
-     
-     "musicSrc":"https://www.spotify.com/kr-ko/",
-     "thumbSrc":"asset/img/replay_hot_now.webp",
-     "albumLink" :"추천곡 믹스 이미지",
-     "title":"인기가요 Hot Now",
-     "artist":"지금 국내에서 가장 핫한 노래들을 만나보세요! (커버: NewJeans(뉴진스))"
-  },
-  {
-   "recommendCate": "다시 들어보세요",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"asset/img/replay_feelin_myself.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"Feelin Myself",
-    "artist":"The hip-hop playlist that's a whole mood. Art By Laci Jordan; Cover: Big Boss Vette"
- }, 
- {
-   "recommendCate": "다시 들어보세요",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"asset/img/replay_hot_now.webp",
-    "albumLink":"추천곡 믹스 이미지",
-    "title":"인기가요 Hot Now",
-    "artist":"지금 국내에서 가장 핫한 노래들을 만나보세요! (커버: NewJeans(뉴진스))"
- },
- {
-   "recommendCate": "다시 들어보세요",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"asset/img/replay_hot_now.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"인기가요 Hot Now",
-    "artist":"지금 국내에서 가장 핫한 노래들을 만나보세요! (커버: NewJeans(뉴진스))"
- },
-
-
-
-
-
-
-  {
-    "recommendCate": "mixed",
-     
-     "musicSrc":"https://www.spotify.com/kr-ko/",
-     "thumbSrc":"asset/img/mix_aespa.webp",
-     "albumLink" :"추천곡 믹스 이미지",
-     "title":"aespa 믹스",
-     "artist":"https://www.spotify.com/kr-ko/",
-     "artistA":"crush",
-     "artistB":"twice",
-     "artistC":"kep1er"
-  },
-  {
-    "recommendCate": "mixed",
-     
-     "musicSrc":"https://www.spotify.com/kr-ko/",
-     "thumbSrc":"asset/img/mix_kpop.webp",
-     "albumLink" :"추천곡 믹스 이미지",
-     "title":"K-Pop 믹스",
-     "artist":null,
-     "artistA":"BLACKPINK",
-     "artistB":"GOT th beat",
-     "artistC":"LESSERAFIM"
-  },
-  {
-   "recommendCate": "mixed",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"asset/img/mix_pop.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"팝 믹스",
-    "artist":null,
-    "artistA":"Ariana Grande",
-    "artistB":"Bruno Mars",
-    "artistC":"Dua Lipa"
- },
- {
-   "recommendCate": "mixed",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"asset/img/mix_happy.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"해피 믹스",
-    "artist":null,
-    "artistA":"Harry Styles",
-    "artistB":"투모로우바이투게더",
-    "artistC":"ENHYPEN"
- },
- {
-   "recommendCate": "mixed",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"asset/img/mix_2010.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"2010년대의 믹스",
-    "artist":null,
-    "artistA":"EXO",
-    "artistB":"NS 윤지",
-    "artistC":"BLACKPINK"
- },
- {
-   "recommendCate": "mixed",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"asset/img/mix_jpop.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"J-Pop 믹스",
-    "artistA":"Sheeena Ringo",
-    "artistB":"SEKAI NO OWARI",
-    "artistC":null
- },
-
-
-
-
-
-
-
-
- {
-   "recommendCate": "played",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"asset/img/played/played_nolja.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"Nolja!",
-    "musicInfo":"Time to press play on these jaem jams from 2010 onwards! Cover: TWICE",
-    "artistA":"",
-    "artistB":"",
-    "artistC":""
- },
- {
-   "recommendCate": "played",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"asset/img/played/played_pops_sauce.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"Pop Sauce",
-    "musicInfo":"next gen pop",
-    "artistA":"cover: Jessie Murph",
-    "artistB":"",
-    "artistC":""
- },
- {
-   "recommendCate": "played",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"asset/img/played/played_hiphopplaya_festival.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"HIPHOPPLAYA FESTIVAL 2022",
-    "musicInfo":"Meet the lineup of HIPHOPPLAYA FESTIVAL 2022, the largest outdoor hip-hop festival in Korea! (한국 최대 규모의 야외 힙합 페스티벌 HIPHOPPLAYA FESTIVAL 2022의 라인업을 만나보세요!)",
-    "artistA":"",
-    "artistB":"",
-    "artistC":""
- },
- {
-   "recommendCate": "played",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"asset/img/played/played_get_turnt.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"Get Turnt",
-    "musicInfo":"Mode: Turnt",
-    "artistA":"",
-    "artistB":"",
-    "artistC":""
- },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- {
-   "recommendCate": "recomMix",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"asset/img/recomMix/recomMix_new_radar.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"신곡 레이더",
-    "musicInfo":"팔로우하는 아티스트의 최신 음악과 고객님만을 위해 선별한 최신 싱글을 모두 들어보세요. 금요일마다 업데이트됩니다.",
-    "artistA":"",
-    "artistB":"",
-    "artistC":""
- },
- {
-   "recommendCate": "recomMix",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"./asset/img/recomMix/recomMix_dailymix3.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"데일리 믹스 3",
-    "musicInfo":"",
-    "artistA":"NS Yoon-G,",
-    "artistB":"SUNMI,",
-    "artistC":"Kep1er 등"
- },
- {
-   "recommendCate": "recomMix",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"./asset/img/recomMix/recomMix_dailymix5.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"데일리 믹스 5",
-    "musicInfo":"",
-    "artistA":"XXXTENTACION,",
-    "artistB":"The Kid LAROI,",
-    "artistC":"Juice WRLD 등"
- },
- {
-   "recommendCate": "recomMix",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"./asset/img/recomMix/recomMix_new_weekly.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"새 위클리 추천곡",
-    "musicInfo":"이번 주 최신 음악 믹스테이프입니다. 고객님을 위해 엄선한 새로운 음악과 숨겨진 명곡을 만끽하세요. 월요일마다 업데이트됩니다.",
-    "artistA":"",
-    "artistB":"",
-    "artistC":""
- },
-
-
-
-
-
-
-
- {
-   "recommendCate": "recomRadio",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"./asset/img/recomRadio/recomRadio_ariana.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"Ariana Grande 라디오",
-    "musicInfo":"만든사람 : spotify",
-    "artistA":"",
-    "artistB":"",
-    "artistC":""
- },
- {
-   "recommendCate": "recomRadio",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"./asset/img/recomRadio/recomRadio_yerin.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"백예린 라디오",
-    "musicInfo":"만든사람 : spotify",
-    "artistA":"",
-    "artistB":"",
-    "artistC":""
- },
- {
-   "recommendCate": "recomRadio",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"./asset/img/recomRadio/recomRadio_IU.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"아이유 라디오",
-    "musicInfo":"만든사람 : spotify",
-    "artistA":"",
-    "artistB":"",
-    "artistC":""
- },
- {
-   "recommendCate": "recomRadio",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"./asset/img/recomRadio/recomRadio_blackpink.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"BLACKPINK 라디오",
-    "musicInfo":"만든사람 : spotify",
-    "artistA":"",
-    "artistB":"",
-    "artistC":""
- },
-
-
-
-
-
-
-
-
-
-
-
-
-
- {
-   "recommendCate": "recomArtist",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"./asset/img/recomArtist/recomArtist_solo.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"I'M FINE, SOLO. AND U?",
-    "musicInfo":"솔로여도 괜찮은 나를 위한 노래들",
-    "artistA":"",
-    "artistB":"",
-    "artistC":""
- },
- {
-   "recommendCate": "recomArtist",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"./asset/img/recomArtist/recomArtist_kpop_generations.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"K-Pop Generations",
-    "musicInfo":"The K-Pop idols who started it all from 90's - 10's. (90년대부터 2010년대까지 케이팝 아이돌 필수곡들을 즐겨보세요!)",
-    "artistA":"",
-    "artistB":"",
-    "artistC":""
- },
- {
-   "recommendCate": "recomArtist",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"./asset/img/recomArtist/recomArtist_secret_summer.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"SECRET SUMMER",
-    "musicInfo":"",
-    "artistA":"시크릿",
-    "artistB":"",
-    "artistC":""
- },
- {
-   "recommendCate": "recomArtist",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"./asset/img/recomArtist/recomArtist_2010best.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"2010년대 베스트",
-    "musicInfo":"2010년대를 수 놓았던 명곡들을 즐겨보세요.",
-    "artistA":"",
-    "artistB":"",
-    "artistC":""
- },
-
-
-
-
-
-
-
-
-
-
-
- {
-   "recommendCate": "kpopRadio",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"./asset/img/kpopRadio/kpopRadio_kpop_ON.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"K-Pop ON! (온)",
-    "musicInfo":"Let's turn ON the movement!",
-    "artistA":"Cover: LE SSERAFIM",
-    "artistB":"",
-    "artistC":""
- },
- {
-   "recommendCate": "kpopRadio",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"./asset/img/kpopRadio/kpopRadio_summer_kpop_hit.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"Summer K-Pop Hits (썸머 히트)",
-    "musicInfo":"Be cool with refreshing Tropical K-Pop dance music! (시원청량한 국내 댄스곡을 즐겨보세요!)",
-    "artistA":"Cover: NAYEON(나연)",
-    "artistB":"",
-    "artistC":""
- },
- {
-   "recommendCate": "kpopRadio",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"./asset/img/kpopRadio/kpopRadio_kpop_rising.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"K-Pop Rising",
-    "musicInfo":"Future K-Pop hits!",
-    "artistA":"Cover: BIBI",
-    "artistB":"",
-    "artistC":""
- },
- {
-   "recommendCate": "kpopRadio",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"./asset/img/kpopRadio/kpopRadio_girl_krush.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"Girl Krush",
-    "musicInfo":"All your girl crushes(걸크러쉬) in one place.",
-    "artistA":"Cover: CLASS:y(클라씨)",
-    "artistB":"",
-    "artistC":""
- },
-
-
-
-
-
-
- 
-
-
-
- {
-   "recommendCate": "popRadio",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"./asset/img/popRadio/popRadio_today_tophit.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"Today's Top Hits",
-    "musicInfo":"SZA is on top of the Hottest 50!",
-    "artistA":"",
-    "artistB":"",
-    "artistC":""
- },
- {
-   "recommendCate": "popRadio",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"./asset/img/popRadio/popRadio_pop_rising.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"Pop Rising",
-    "musicInfo":"The hits of tomorrow are on Spotify today.",
-    "artistA":"Cover: Isabel LaRosa",
-    "artistB":"",
-    "artistC":""
- },
- {
-   "recommendCate": "popRadio",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"./asset/img/popRadio/popRadio_today_hothit.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"Today's Hot Hits",
-    "musicInfo":"Rema & Selena Gomez are on top of the Hottest 50!",
-    "artistA":"",
-    "artistB":"",
-    "artistC":""
- },
- {
-   "recommendCate": "popRadio",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"./asset/img/popRadio/popRadio_are_be.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"Are & Be",
-    "musicInfo":"The pulse of R&B music today.",
-    "artistA":"Cover: Masego",
-    "artistB":"",
-    "artistC":""
- },
-
-
-
-
-
-
-
-
-
- {
-   "recommendCate": "danceMix",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"./asset/img/danceMix/danceMix_pop_party.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"Pop Party",
-    "musicInfo":"A perfect little pop party. ",
-    "artistA":"",
-    "artistB":"",
-    "artistC":""
- },
- {
-   "recommendCate": "danceMix",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"./asset/img/danceMix/danceMix_teen_beats.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"teen beats",
-    "musicInfo":"if this setlist doesn't include Cruel Summer into Betty into Our Song there's going to be trouble.",
-    "artistA":"",
-    "artistB":"",
-    "artistC":""
- },
- {
-   "recommendCate": "danceMix",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"./asset/img/danceMix/danceMix_party_hits.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"Party Hits",
-    "musicInfo":"A mix of the biggest pop, dance, and hip hop party songs. Cover: Fred Again..",
-    "artistA":"",
-    "artistB":"",
-    "artistC":""
- },
- {
-   "recommendCate": "danceMix",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"./asset/img/danceMix/danceMix_dance_party.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"Dance Party",
-    "musicInfo":"Move your self!",
-    "artistA":"",
-    "artistB":"",
-    "artistC":""
- },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- {
-   "recommendCate": "moodMix",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"./asset/img/moodMix/moodMix_idx.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"idk.",
-    "musicInfo":"We hear you.",
-    "artistA":"",
-    "artistB":"",
-    "artistC":""
- },
- {
-   "recommendCate": "moodMix",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"./asset/img/moodMix/moodMix_you_me.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"You & Me",
-    "musicInfo":"It's just us—and this awesome alt soundtrack.",
-    "artistA":"",
-    "artistB":"",
-    "artistC":""
- },
- {
-   "recommendCate": "moodMix",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"./asset/img/moodMix/moodMix_indie_rock.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"Feel-Good Indie Rock",
-    "musicInfo":"The best indie rock vibes — classic and current. ",
-    "artistA":"",
-    "artistB":"",
-    "artistC":""
- },
- {
-   "recommendCate": "moodMix",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"./asset/img/moodMix/moodMix_sad_hour.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"sad hour",
-    "musicInfo":"Somehow heartbreak feels good in a place like this.",
-    "artistA":"Cover: Taylor Swift",
-    "artistB":"",
-    "artistC":""
- },
-
-
-
-
-
-
-
-
-
-
-
- {
-   "recommendCate": "workMix",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"./asset/img/workMix/workMix_workspace.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"Workspace",
-    "musicInfo":"Soundtrack your workspace with this workday mixtape. i'm tired.",
-    "artistA":"",
-    "artistB":"",
-    "artistC":""
- },
- {
-   "recommendCate": "workMix",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"./asset/img/workMix/workMix_bubble_tea.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"微冰半糖 Bubble Tea",
-    "musicInfo":"全亞洲千禧世代的華語最紅歌！像珍奶般人氣的同溫層流行！止口乾又不礙胃的剛好好好聽！",
-    "artistA":"",
-    "artistB":"",
-    "artistC":""
- },
- {
-   "recommendCate": "workMix",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"./asset/img/workMix/workMix_knockknock.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"Knock Knock",
-    "musicInfo":"Who's there? Your delivery.",
-    "artistA":"",
-    "artistB":"",
-    "artistC":""
- },
- {
-   "recommendCate": "workMix",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"./asset/img/workMix/workMix_iykyk.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"iykyk",
-    "musicInfo":"*wink wink*",
-    "artistA":"",
-    "artistB":"",
-    "artistC":""
- },
-
-
-
-
-
-
-
-
-
-
- {
-   "recommendCate": "stateMix",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"./asset/img/stateMix/stateMix_dalkom_cafe.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"Dalkom Cafe",
-    "musicInfo":"Chill Korean tunes that's perfect with your latte or americano. (카페와 어울리는 편안한 음악들을 감상하세요.)",
-    "artistA":"",
-    "artistB":"",
-    "artistC":""
- },
- {
-   "recommendCate": "stateMix",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"./asset/img/stateMix/stateMix_morning_kpop.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"Morning K-Pop!",
-    "musicInfo":"Everyday should be a happy day when you listen to this fun K-Pop playlist.",
-    "artistA":"",
-    "artistB":"",
-    "artistC":""
- },
- {
-   "recommendCate": "stateMix",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"./asset/img/stateMix/stateMix_vokal.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"v o K a l : Lim Jae Beum Takeover",
-    "musicInfo":"This is a takeover playlist of Lim Jae Beum, the representative vocalist of Korea. Meet Lim's 10 representative vocal songs at the top of the playlist. (대한민국을 대표하는 보컬 임재범의 플레이리스트 테이크오버입니다. 임재범의 대표 보컬곡 10곡을 플레이리스트 최상단에서 만나보세요.)",
-    "artistA":"",
-    "artistB":"",
-    "artistC":""
- },
- {
-   "recommendCate": "stateMix",
-    
-    "musicSrc":"https://www.spotify.com/kr-ko/",
-    "thumbSrc":"./asset/img/stateMix/stateMix_driving_dance.webp",
-    "albumLink" :"추천곡 믹스 이미지",
-    "title":"드라이빙 댄스+ (K-Pop Driving)",
-    "musicInfo":"시원한 국내음악들과 드라이빙을 즐겨보세요! (Tap your feet to the K-Pop beats on your way through the driving moments.)",
-    "artistA":"",
-    "artistB":"",
-    "artistC":""
- }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-]
+      "id":"",
+      "musicList":5,
+      "element":{
+         "musicSrc":"https://www.spotify.com/kr-ko/",
+         "thumbSrc":"./asset/img/recomRadio/recomRadio_yerin.webp",
+         "albumLink" :"추천곡 믹스 이미지",
+         "title":"백예린 라디오",
+         "musicInfo":"만든사람 : spotify",
+         "artistA":"",
+         "artistB":"",
+         "artistC":""
+         }
+      },
+      {
+         "id":"",
+         "musicList":5,
+         "element":{
+            "musicSrc":"https://www.spotify.com/kr-ko/",
+            "thumbSrc":"./asset/img/recomRadio/recomRadio_IU.webp",
+            "albumLink" :"추천곡 믹스 이미지",
+            "title":"아이유 라디오",
+            "musicInfo":"만든사람 : spotify",
+            "artistA":"",
+            "artistB":"",
+            "artistC":""
+            }
+      },
+      {
+         "id":"",
+         "musicList":5,
+         "element":{
+            "musicSrc":"https://www.spotify.com/kr-ko/",
+            "thumbSrc":"./asset/img/recomRadio/recomRadio_blackpink.webp",
+            "albumLink" :"추천곡 믹스 이미지",
+            "title":"BLACKPINK 라디오",
+            "musicInfo":"만든사람 : spotify",
+            "artistA":"",
+            "artistB":"",
+            "artistC":""
+            }
+      },
+      {
+         "id":"",
+         "musicList":6,
+         "element":{
+            "musicSrc":"https://www.spotify.com/kr-ko/",
+            "thumbSrc":"./asset/img/recomArtist/recomArtist_solo.webp",
+            "albumLink" :"추천곡 믹스 이미지",
+            "title":"I'M FINE, SOLO. AND U?",
+            "musicInfo":"솔로여도 괜찮은 나를 위한 노래들",
+            "artistA":"",
+            "artistB":"",
+            "artistC":""
+            }
+      },
+      {
+         "id":"",
+         "musicList":6,
+         "element":{
+            "musicSrc":"https://www.spotify.com/kr-ko/",
+            "thumbSrc":"./asset/img/recomArtist/recomArtist_kpop_generations.webp",
+            "albumLink" :"추천곡 믹스 이미지",
+            "title":"K-Pop Generations",
+            "musicInfo":"The K-Pop idols who started it all from 90's - 10's. (90년대부터 2010년대까지 케이팝 아이돌 필수곡들을 즐겨보세요!)",
+            "artistA":"",
+            "artistB":"",
+            "artistC":""
+            }
+      },
+      {
+         "id":"",
+         "musicList":6,
+         "element":{
+            "musicSrc":"https://www.spotify.com/kr-ko/",
+            "thumbSrc":"./asset/img/recomArtist/recomArtist_secret_summer.webp",
+            "albumLink" :"추천곡 믹스 이미지",
+            "title":"SECRET SUMMER",
+            "musicInfo":"",
+            "artistA":"시크릿",
+            "artistB":"",
+            "artistC":""
+            }
+      },
+      {
+         "id":"",
+         "musicList":6,
+         "element":{
+            "musicSrc":"https://www.spotify.com/kr-ko/",
+            "thumbSrc":"./asset/img/recomArtist/recomArtist_2010best.webp",
+            "albumLink" :"추천곡 믹스 이미지",
+            "title":"2010년대 베스트",
+            "musicInfo":"2010년대를 수 놓았던 명곡들을 즐겨보세요.",
+            "artistA":"",
+            "artistB":"",
+            "artistC":""
+            }
+      },
+      {
+         "id":"",
+         "musicList":7,
+         "element":{
+            "musicSrc":"https://www.spotify.com/kr-ko/",
+            "thumbSrc":"./asset/img/kpopRadio/kpopRadio_kpop_ON.webp",
+            "albumLink" :"추천곡 믹스 이미지",
+            "title":"K-Pop ON! (온)",
+            "musicInfo":"Let's turn ON the movement!",
+            "artistA":"Cover: LE SSERAFIM",
+            "artistB":"",
+            "artistC":""
+            }
+      },
+      {
+         "id":"",
+         "musicList":7,
+         "element":{
+            "musicSrc":"https://www.spotify.com/kr-ko/",
+            "thumbSrc":"./asset/img/kpopRadio/kpopRadio_summer_kpop_hit.webp",
+            "albumLink" :"추천곡 믹스 이미지",
+            "title":"Summer K-Pop Hits (썸머 히트)",
+            "musicInfo":"Be cool with refreshing Tropical K-Pop dance music! (시원청량한 국내 댄스곡을 즐겨보세요!)",
+            "artistA":"Cover: NAYEON(나연)",
+            "artistB":"",
+            "artistC":""
+            }
+      },
+      {
+         "id":"",
+         "musicList":7,
+         "element":{
+            "musicSrc":"https://www.spotify.com/kr-ko/",
+            "thumbSrc":"./asset/img/kpopRadio/kpopRadio_kpop_rising.webp",
+            "albumLink" :"추천곡 믹스 이미지",
+            "title":"K-Pop Rising",
+            "musicInfo":"Future K-Pop hits!",
+            "artistA":"Cover: BIBI",
+            "artistB":"",
+            "artistC":""
+            }
+      },
+      {
+         "id":"",
+         "musicList":7,
+         "element":{
+            "musicSrc":"https://www.spotify.com/kr-ko/",
+            "thumbSrc":"./asset/img/kpopRadio/kpopRadio_girl_krush.webp",
+            "albumLink" :"추천곡 믹스 이미지",
+            "title":"Girl Krush",
+            "musicInfo":"All your girl crushes(걸크러쉬) in one place.",
+            "artistA":"Cover: CLASS:y(클라씨)",
+            "artistB":"",
+            "artistC":""
+            }
+      },
+      {
+         "id":"",
+         "musicList":8,
+         "element":{
+            "musicSrc":"https://www.spotify.com/kr-ko/",
+            "thumbSrc":"./asset/img/popRadio/popRadio_today_tophit .webp",
+            "albumLink" :"추천곡 믹스 이미지",
+            "title":"Today's Top Hits",
+            "musicInfo":"SZA is on top of the Hottest 50!",
+            "artistA":"",
+            "artistB":"",
+            "artistC":""
+            }
+      },
+      {
+         "id":"",
+         "musicList":8,
+         "element":{
+            "musicSrc":"https://www.spotify.com/kr-ko/",
+            "thumbSrc":"./asset/img/popRadio/popRadio_pop_rising.webp",
+            "albumLink" :"추천곡 믹스 이미지",
+            "title":"Pop Rising",
+            "musicInfo":"The hits of tomorrow are on Spotify today.",
+            "artistA":"Cover: Isabel LaRosa",
+            "artistB":"",
+            "artistC":""
+            }
+      },
+      {
+         "id":"",
+         "musicList":8,
+         "element":{
+            "musicSrc":"https://www.spotify.com/kr-ko/",
+            "thumbSrc":"./asset/img/popRadio/popRadio_today_hothit.webp",
+            "albumLink" :"추천곡 믹스 이미지",
+            "title":"Today's Hot Hits",
+            "musicInfo":"Rema & Selena Gomez are on top of the Hottest 50!",
+            "artistA":"",
+            "artistB":"",
+            "artistC":""
+            }
+      },
+      {
+         "id":"",
+         "musicList":8,
+         "element":{
+            "musicSrc":"https://www.spotify.com/kr-ko/",
+            "thumbSrc":"./asset/img/popRadio/popRadio_are_be.webp",
+            "albumLink" :"추천곡 믹스 이미지",
+            "title":"Are & Be",
+            "musicInfo":"The pulse of R&B music today.",
+            "artistA":"Cover: Masego",
+            "artistB":"",
+            "artistC":""
+            }
+      },
+      {
+         "id":"",
+         "musicList":9,
+         "element":{
+            "musicSrc":"https://www.spotify.com/kr-ko/",
+            "thumbSrc":"./asset/img/danceMix/danceMix_pop_party.webp",
+            "albumLink" :"추천곡 믹스 이미지",
+            "title":"Pop Party",
+            "musicInfo":"A perfect little pop party. ",
+            "artistA":"",
+            "artistB":"",
+            "artistC":""
+            }
+      },
+      {
+         "id":"",
+         "musicList":9,
+         "element":{
+            "musicSrc":"https://www.spotify.com/kr-ko/",
+            "thumbSrc":"./asset/img/danceMix/danceMix_teen_beats.webp",
+            "albumLink" :"추천곡 믹스 이미지",
+            "title":"teen beats",
+            "musicInfo":"if this setlist doesn't include Cruel Summer into Betty into Our Song there's going to be trouble.",
+            "artistA":"",
+            "artistB":"",
+            "artistC":""
+            }
+      },
+      {
+         "id":"",
+         "musicList":9,
+         "element":{
+            "musicSrc":"https://www.spotify.com/kr-ko/",
+            "thumbSrc":"./asset/img/danceMix/danceMix_party_hits.webp",
+            "albumLink" :"추천곡 믹스 이미지",
+            "title":"Party Hits",
+            "musicInfo":"A mix of the biggest pop, dance, and hip hop party songs. Cover: Fred Again..",
+            "artistA":"",
+            "artistB":"",
+            "artistC":""
+            }
+      },
+      {
+         "id":"",
+         "musicList":9,
+         "element":{
+            "musicSrc":"https://www.spotify.com/kr-ko/",
+            "thumbSrc":"./asset/img/danceMix/danceMix_dance_party.webp",
+            "albumLink" :"추천곡 믹스 이미지",
+            "title":"Dance Party",
+            "musicInfo":"Move your self!",
+            "artistA":"",
+            "artistB":"",
+            "artistC":""
+            }
+      },
+      {
+         "id":"",
+         "musicList":10,
+         "element":{
+            "musicSrc":"https://www.spotify.com/kr-ko/",
+            "thumbSrc":"./asset/img/moodMix/moodMix_idx.webp",
+            "albumLink" :"추천곡 믹스 이미지",
+            "title":"idk.",
+            "musicInfo":"We hear you.",
+            "artistA":"",
+            "artistB":"",
+            "artistC":""
+            }
+      },
+      {
+         "id":"",
+         "musicList":10,
+         "element":{
+            "musicSrc":"https://www.spotify.com/kr-ko/",
+            "thumbSrc":"./asset/img/moodMix/moodMix_you_me.webp",
+            "albumLink" :"추천곡 믹스 이미지",
+            "title":"You & Me",
+            "musicInfo":"It's just us—and this awesome alt soundtrack.",
+            "artistA":"",
+            "artistB":"",
+            "artistC":""
+            }
+      },
+      {
+         "id":"",
+         "musicList":10,
+         "element":{
+            "musicSrc":"https://www.spotify.com/kr-ko/",
+            "thumbSrc":"./asset/img/moodMix/moodMix_indie_rock.webp",
+            "albumLink" :"추천곡 믹스 이미지",
+            "title":"Feel-Good Indie Rock",
+            "musicInfo":"The best indie rock vibes — classic and current. ",
+            "artistA":"",
+            "artistB":"",
+            "artistC":""
+            }
+      },
+      {
+         "id":"",
+         "musicList":10,
+         "element":{
+            "musicSrc":"https://www.spotify.com/kr-ko/",
+            "thumbSrc":"./asset/img/moodMix/moodMix_sad_hour.webp",
+            "albumLink" :"추천곡 믹스 이미지",
+            "title":"sad hour",
+            "musicInfo":"Somehow heartbreak feels good in a place like this.",
+            "artistA":"Cover: Taylor Swift",
+            "artistB":"",
+            "artistC":""
+            }
+      },
+      {
+         "id":"",
+         "musicList":11,
+         "element":{
+            "musicSrc":"https://www.spotify.com/kr-ko/",
+            "thumbSrc":"./asset/img/workMix/workMix_workspace.webp",
+            "albumLink" :"추천곡 믹스 이미지",
+            "title":"Workspace",
+            "musicInfo":"Soundtrack your workspace with this workday mixtape. i'm tired.",
+            "artistA":"",
+            "artistB":"",
+            "artistC":""
+            }
+      },
+      {
+         "id":"",
+         "musicList":11,
+         "element":{
+            "musicSrc":"https://www.spotify.com/kr-ko/",
+            "thumbSrc":"./asset/img/workMix/workMix_bubble_tea.webp",
+            "albumLink" :"추천곡 믹스 이미지",
+            "title":"微冰半糖 Bubble Tea",
+            "musicInfo":"全亞洲千禧世代的華語最紅歌！像珍奶般人氣的同溫層流行！止口乾又不礙胃的剛好好好聽！",
+            "artistA":"",
+            "artistB":"",
+            "artistC":""
+            }
+      },
+      {
+         "id":"",
+         "musicList":11,
+         "element":{
+            "musicSrc":"https://www.spotify.com/kr-ko/",
+            "thumbSrc":"./asset/img/workMix/workMix_knockknock.webp",
+            "albumLink" :"추천곡 믹스 이미지",
+            "title":"Knock Knock",
+            "musicInfo":"Who's there? Your delivery.",
+            "artistA":"",
+            "artistB":"",
+            "artistC":""
+            }
+      },
+      {
+         "id":"",
+         "musicList":12,
+         "element":{
+            "musicSrc":"https://www.spotify.com/kr-ko/",
+            "thumbSrc":"./asset/img/stateMix/stateMix_dalkom_cafe.webp",
+            "albumLink" :"추천곡 믹스 이미지",
+            "title":"Dalkom Cafe",
+            "musicInfo":"Chill Korean tunes that's perfect with your latte or americano. (카페와 어울리는 편안한 음악들을 감상하세요.)",
+            "artistA":"",
+            "artistB":"",
+            "artistC":""
+            }
+      },
+      {
+         "id":"",
+         "musicList":12,
+         "element":{
+            "musicSrc":"https://www.spotify.com/kr-ko/",
+            "thumbSrc":"./asset/img/stateMix/stateMix_morning_kpop.webp",
+            "albumLink" :"추천곡 믹스 이미지",
+            "title":"Morning K-Pop!",
+            "musicInfo":"Everyday should be a happy day when you listen to this fun K-Pop playlist.",
+            "artistA":"",
+            "artistB":"",
+            "artistC":""
+            }
+      },
+      {
+         "id":"",
+         "musicList":12,
+         "element":{
+            "musicSrc":"https://www.spotify.com/kr-ko/",
+            "thumbSrc":"./asset/img/stateMix/stateMix_vokal.webp",
+            "albumLink" :"추천곡 믹스 이미지",
+            "title":"v o K a l : Lim Jae Beum Takeover",
+            "musicInfo":"This is a takeover playlist of Lim Jae Beum, the representative vocalist of Korea. Meet Lim's 10 representative vocal songs at the top of the playlist. (대한민국을 대표하는 보컬 임재범의 플레이리스트 테이크오버입니다. 임재범의 대표 보컬곡 10곡을 플레이리스트 최상단에서 만나보세요.)",
+            "artistA":"",
+            "artistB":"",
+            "artistC":""
+            }
+      },
+      {
+         "id":"",
+         "musicList":12,
+         "element":{
+            "musicSrc":"https://www.spotify.com/kr-ko/",
+            "thumbSrc":"./asset/img/stateMix/stateMix_driving_dance.webp",
+            "albumLink" :"추천곡 믹스 이미지",
+            "title":"드라이빙 댄스+ (K-Pop Driving)",
+            "musicInfo":"시원한 국내음악들과 드라이빙을 즐겨보세요! (Tap your feet to the K-Pop beats on your way through the driving moments.)",
+            "artistA":"",
+            "artistB":"",
+            "artistC":""
+            }
+      }
+
+] 
+
+}

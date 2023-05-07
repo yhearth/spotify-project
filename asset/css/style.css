@@ -193,10 +193,9 @@ header .header_area .info button {
   transform: translate(-50%, -50%);
 }
 header .header_area .info button svg {
-  width: 17px;
-  height: 17px;
+  width: 16px;
+  height: 16px;
   fill: white;
-  margin-top: 2px;
 }
 header .header_area .group_srh {
   position: absolute;
@@ -617,115 +616,15 @@ main .main_area .sc_recommend .recomCate .tit_box .link_more {
 }
 main .main_area .sc_recommend .recomCate .music_box .music_list {
   position: relative;
-  display: flex;
-  align-items: center;
-  overflow: hidden;
 }
 main .main_area .sc_recommend .recomCate .music_box .music_list .list_item {
-  flex-shrink: 0;
-  width: calc(50% - 6px);
-  margin-right: 12px;
   padding: 16px;
   box-sizing: border-box;
   border-radius: 5px;
   background-color: #181818;
-  transition: all 0.3s ease;
 }
 main .main_area .sc_recommend .recomCate .music_box .music_list .list_item.on {
   background-color: #2f2f2f;
-}
-main .main_area .sc_recommend .recomCate .music_box .music_list .list_item:nth-child(2n) {
-  margin-right: 0;
-}
-@media (min-width: 767px) {
-  main .main_area .sc_recommend .recomCate .music_box .music_list .list_item {
-    width: calc(33.3333333333% - 12px);
-    margin-right: 18px;
-  }
-  main .main_area .sc_recommend .recomCate .music_box .music_list .list_item:nth-child(2n) {
-    margin-right: 18px;
-  }
-  main .main_area .sc_recommend .recomCate .music_box .music_list .list_item:nth-child(3n) {
-    margin-right: 0px;
-  }
-}
-@media (min-width: 1024px) {
-  main .main_area .sc_recommend .recomCate .music_box .music_list .list_item {
-    width: calc(25% - 12px);
-    margin-right: 16px;
-  }
-  main .main_area .sc_recommend .recomCate .music_box .music_list .list_item:nth-child(2n) {
-    margin-right: 16px;
-  }
-  main .main_area .sc_recommend .recomCate .music_box .music_list .list_item:nth-child(3n) {
-    margin-right: 16px;
-  }
-  main .main_area .sc_recommend .recomCate .music_box .music_list .list_item:nth-child(4n) {
-    margin-right: 0px;
-  }
-}
-@media (min-width: 1200px) {
-  main .main_area .sc_recommend .recomCate .music_box .music_list .list_item {
-    width: calc(20% - 12px);
-    margin-right: 15px;
-  }
-  main .main_area .sc_recommend .recomCate .music_box .music_list .list_item:nth-child(2n) {
-    margin-right: 15px;
-  }
-  main .main_area .sc_recommend .recomCate .music_box .music_list .list_item:nth-child(3n) {
-    margin-right: 15px;
-  }
-  main .main_area .sc_recommend .recomCate .music_box .music_list .list_item:nth-child(4n) {
-    margin-right: 15px;
-  }
-  main .main_area .sc_recommend .recomCate .music_box .music_list .list_item:nth-child(5n) {
-    margin-right: 0px;
-  }
-}
-@media (min-width: 1400px) {
-  main .main_area .sc_recommend .recomCate .music_box .music_list .list_item {
-    width: calc(16.6666666667% - 12px);
-    margin-right: 14px;
-  }
-  main .main_area .sc_recommend .recomCate .music_box .music_list .list_item:nth-child(2n) {
-    margin-right: 14px;
-  }
-  main .main_area .sc_recommend .recomCate .music_box .music_list .list_item:nth-child(3n) {
-    margin-right: 14px;
-  }
-  main .main_area .sc_recommend .recomCate .music_box .music_list .list_item:nth-child(4n) {
-    margin-right: 14px;
-  }
-  main .main_area .sc_recommend .recomCate .music_box .music_list .list_item:nth-child(5n) {
-    margin-right: 14px;
-  }
-  main .main_area .sc_recommend .recomCate .music_box .music_list .list_item:nth-child(6n) {
-    margin-right: 0px;
-  }
-}
-@media (min-width: 1600px) {
-  main .main_area .sc_recommend .recomCate .music_box .music_list .list_item {
-    width: calc(14.2857142857% - 12px);
-    margin-right: 13px;
-  }
-  main .main_area .sc_recommend .recomCate .music_box .music_list .list_item:nth-child(2n) {
-    margin-right: 13px;
-  }
-  main .main_area .sc_recommend .recomCate .music_box .music_list .list_item:nth-child(3n) {
-    margin-right: 13px;
-  }
-  main .main_area .sc_recommend .recomCate .music_box .music_list .list_item:nth-child(4n) {
-    margin-right: 13px;
-  }
-  main .main_area .sc_recommend .recomCate .music_box .music_list .list_item:nth-child(5n) {
-    margin-right: 13px;
-  }
-  main .main_area .sc_recommend .recomCate .music_box .music_list .list_item:nth-child(6n) {
-    margin-right: 13px;
-  }
-  main .main_area .sc_recommend .recomCate .music_box .music_list .list_item:nth-child(7n) {
-    margin-right: 0px;
-  }
 }
 main .main_area .sc_recommend .recomCate .music_box .music_list .list_item .img_wrap {
   position: relative;
@@ -764,6 +663,7 @@ main .main_area .sc_recommend .recomCate .music_box .music_list .list_item .img_
 }
 main .main_area .sc_recommend .recomCate .music_box .music_list .list_item .txt_wrap {
   display: block;
+  min-height: 102px;
 }
 main .main_area .sc_recommend .recomCate .music_box .music_list .list_item .txt_wrap .tit {
   display: block;
@@ -784,9 +684,22 @@ main .main_area .sc_recommend .recomCate .music_box .music_list .list_item .txt_
   font-weight: 400;
   line-height: 1.5;
   color: #888;
-  min-height: 62px;
+}
+main .main_area .sc_recommend .recomCate .music_box .music_list .list_item .txt_wrap .info small {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 main .main_area .sc_recommend .recomCate .music_box .music_list .list_item .txt_wrap .info span {
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+main .main_area .sc_recommend .recomCate .music_box .music_list .list_item .txt_wrap .info p {
   display: -webkit-box;
   overflow: hidden;
   text-overflow: ellipsis;
