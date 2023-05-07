@@ -90,7 +90,7 @@
 
           html +=`
               <li class="swiper-slide list_item">
-                  <a href="${elem.element.musicSrc}" class="img_wrap">
+                  <a href="https://yhearth.github.io/spotify-project/" class="img_wrap">
                       <img src="${elem.element.thumbSrc}" alt="노래 커버 이미지">
                         <div class="ic_play">
                           <buttom class="play_btn">
@@ -98,7 +98,7 @@
                           </buttom>
                       </div>
                   </a>
-                  <a href="${elem.element.albumLink}" class="txt_wrap">
+                  <a href="https://yhearth.github.io/spotify-project/" class="txt_wrap">
                       <strong class="tit">${elem.element.title}</strong>
                       <div class="info"> 
                             ${artist}
